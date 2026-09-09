@@ -1,0 +1,44 @@
+{
+  "B_AP": 0.9597579457352423,
+  "matrix_hash_verified": true,
+  "positive_all": {
+    "pairs": 225,
+    "different_status": 0,
+    "different_status_rate": 0.0
+  },
+  "negative_all": {
+    "pairs": 1050,
+    "different_status": 940,
+    "different_status_rate": 0.8952380952380953
+  },
+  "positive_affected": {
+    "pairs": 17,
+    "different_status": 0,
+    "different_status_rate": 0.0
+  },
+  "negative_affected": {
+    "pairs": 330,
+    "different_status": 320,
+    "different_status_rate": 0.9696969696969697
+  },
+  "rank_comparisons": {
+    "favorable": 4306,
+    "strict": 4386,
+    "neutral": 80
+  },
+  "AP_loss": 0.04024205426475767,
+  "grid_BLD_vs_BL": {
+    "increase": 12,
+    "decrease": 4,
+    "tie": 4
+  },
+  "grid_BLD_vs_B": {
+    "decrease": 9,
+    "increase": 11
+  },
+  "BL_BLD_S0_same_partition": {
+    "freetype__char2svg": true,
+    "poppler__pdfimages": true,
+    "soxmp3__sox": true
+  }
+}

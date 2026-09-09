@@ -1,0 +1,2546 @@
+{
+  "aggregation": "equal_mean_of_unit_chunk_vectors_then_normalize",
+  "batch_size": 8,
+  "chunking": "consecutive_token_ids_v1",
+  "content_token_budget": 510,
+  "dtype": "float32",
+  "embedding_dimension": 384,
+  "encoder_script_sha256": "3e2ccc5a5b78da19e5a20aeea36abd613926c30b7528f758d374127ff3f25f9d",
+  "input_sha256": "0cf81b07a4af330ccdaee156a958149c6b6d6c78442aab689b95090b7595e359",
+  "max_sequence_length": 512,
+  "model": "BAAI/bge-small-en-v1.5",
+  "model_snapshot": {
+    "files": {
+      "1_Pooling/config.json": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c",
+      "config.json": "094f8e891b932f2000c92cfc663bac4c62069f5d8af5b5278c4306aef3084750",
+      "config_sentence_transformers.json": "940d5f50db195fa6e5e6a4f122c095f77880de259d74b14a65779ed48bdd7c56",
+      "model.safetensors": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+      "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+      "sentence_bert_config.json": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf",
+      "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "tokenizer_config.json": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+      "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    "manifest": "324e3161faa18af23a99aaf826e9c8382215f75b7e5032330a7896afc5e0c6e7"
+  },
+  "prompt": null,
+  "records": 608,
+  "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "short_encode_parity_cosine": 1.0000000000000004,
+  "threads": 4,
+  "tokens_by_hash": {
+    "00ee4477c2bbc0b35ef6e07d4e296faa4a7fc7018dffc6897aae5f9ef46c4ea0": {
+      "chunks": 1,
+      "input_tokens": 458,
+      "max_chunk_tokens": 458,
+      "omitted_tokens": 0,
+      "used_tokens": 458
+    },
+    "01196c11e03cdd93ead1037dd7a3dab42febb4f96ffe60844356a5025b0ff874": {
+      "chunks": 1,
+      "input_tokens": 172,
+      "max_chunk_tokens": 172,
+      "omitted_tokens": 0,
+      "used_tokens": 172
+    },
+    "01327d29ca19e1548bce388f501354ead5f10eb58028de2b1f21debf278cd832": {
+      "chunks": 1,
+      "input_tokens": 94,
+      "max_chunk_tokens": 94,
+      "omitted_tokens": 0,
+      "used_tokens": 94
+    },
+    "0214db6f35e3724409589f83fcee4dee6bd7b7fae7e0653a8e0654afc699532a": {
+      "chunks": 3,
+      "input_tokens": 1036,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1036
+    },
+    "04758300c6259880c08c47ae7803d6bfe5e9fb4f15b1d68d2c27cce11b898bc5": {
+      "chunks": 1,
+      "input_tokens": 158,
+      "max_chunk_tokens": 158,
+      "omitted_tokens": 0,
+      "used_tokens": 158
+    },
+    "05a8fb1fc2047ced8b78b4e20408aa0db0139d48929ae0c1b27b6539f8dd9f3b": {
+      "chunks": 2,
+      "input_tokens": 710,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 710
+    },
+    "07f998dbc34d6bee4dcdc571d1d8c4feb18d1fa6dff08573f4c4830455950511": {
+      "chunks": 1,
+      "input_tokens": 240,
+      "max_chunk_tokens": 240,
+      "omitted_tokens": 0,
+      "used_tokens": 240
+    },
+    "08a4be2c572834808df926efefe98b5ac70128f1207ed763a65f06e51128c149": {
+      "chunks": 2,
+      "input_tokens": 755,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 755
+    },
+    "0952e087b6adbc4aee56d74e670a6b977ef069494c8fd772219338e5409de427": {
+      "chunks": 1,
+      "input_tokens": 182,
+      "max_chunk_tokens": 182,
+      "omitted_tokens": 0,
+      "used_tokens": 182
+    },
+    "0961ac8fa1d37f63be718cd9119fc218703bbc50777de58012087716a4f5c2bc": {
+      "chunks": 1,
+      "input_tokens": 341,
+      "max_chunk_tokens": 341,
+      "omitted_tokens": 0,
+      "used_tokens": 341
+    },
+    "097981fb635ff35c8eb39a47d339c75700dd5590e764997274f9093df4a0694b": {
+      "chunks": 1,
+      "input_tokens": 180,
+      "max_chunk_tokens": 180,
+      "omitted_tokens": 0,
+      "used_tokens": 180
+    },
+    "0b485bfc512ca2a69e3335cfc3d7a2ddd00f476c090b040e1fd965d613df8cc5": {
+      "chunks": 1,
+      "input_tokens": 20,
+      "max_chunk_tokens": 20,
+      "omitted_tokens": 0,
+      "used_tokens": 20
+    },
+    "0d1ba21004ebb6c4ef1a5ff4693a1f79ac4409489bdfd0e2d943857b724a823e": {
+      "chunks": 1,
+      "input_tokens": 341,
+      "max_chunk_tokens": 341,
+      "omitted_tokens": 0,
+      "used_tokens": 341
+    },
+    "0d7188db85bad22cfd7419a6b0058bcd9e6c4c312077084c5c41c9305cf5abff": {
+      "chunks": 3,
+      "input_tokens": 1040,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1040
+    },
+    "0dc33492f6ae20471ca95d98230d3f9fea2a91aa6edb2601e03423b827f27c7c": {
+      "chunks": 1,
+      "input_tokens": 104,
+      "max_chunk_tokens": 104,
+      "omitted_tokens": 0,
+      "used_tokens": 104
+    },
+    "0ec7803a933448d450d3fbfd0720fcb3b70da9adf5d248a919787adbe96faf12": {
+      "chunks": 1,
+      "input_tokens": 368,
+      "max_chunk_tokens": 368,
+      "omitted_tokens": 0,
+      "used_tokens": 368
+    },
+    "0f26b616635176d87743b0bc19c8d76bbe3a49ae29bc007a3e5f403f0bc0a756": {
+      "chunks": 2,
+      "input_tokens": 711,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 711
+    },
+    "1082b2652fe587035290eaf558e614d343350659ec21646de94fba45773dce96": {
+      "chunks": 1,
+      "input_tokens": 421,
+      "max_chunk_tokens": 421,
+      "omitted_tokens": 0,
+      "used_tokens": 421
+    },
+    "10ea7d7ffc0d78e804f68d02dfc7dc4701f4094ce08faf6dee961456c29658d0": {
+      "chunks": 1,
+      "input_tokens": 122,
+      "max_chunk_tokens": 122,
+      "omitted_tokens": 0,
+      "used_tokens": 122
+    },
+    "126efd8a2d1a0b6806c5b1ea464aae57d0ae6f5bad07d910471e6e14965019e8": {
+      "chunks": 1,
+      "input_tokens": 99,
+      "max_chunk_tokens": 99,
+      "omitted_tokens": 0,
+      "used_tokens": 99
+    },
+    "130f3325a29812890ae86ce7feccb6ac3e62aa341fe3e0b622f2f2c179fbffeb": {
+      "chunks": 3,
+      "input_tokens": 1068,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1068
+    },
+    "132cffdb684f487d1b0171e07b2cfe5df373c398a4dae52ee8a2c632261ea8e0": {
+      "chunks": 1,
+      "input_tokens": 79,
+      "max_chunk_tokens": 79,
+      "omitted_tokens": 0,
+      "used_tokens": 79
+    },
+    "13dca1ac9b58726deff07a5abde14d686a0bb98227080e4f048d7669f90ca712": {
+      "chunks": 1,
+      "input_tokens": 368,
+      "max_chunk_tokens": 368,
+      "omitted_tokens": 0,
+      "used_tokens": 368
+    },
+    "13e76df7c5c20e896cbfc7baa2e9e434ab8879997a55d68c0fcc3f984732c756": {
+      "chunks": 2,
+      "input_tokens": 571,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 571
+    },
+    "146cb79dad99def2f2b6808c8d24d2ee041a43d082622fe26c79bfcebbb62f8c": {
+      "chunks": 2,
+      "input_tokens": 963,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 963
+    },
+    "14a6daea1ec76b1caad6afb670727dd1881e409604eb00b29eae04aaf628a758": {
+      "chunks": 2,
+      "input_tokens": 615,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 615
+    },
+    "154f763aa45bf49d6aa9357be73fff0d0b1e3c03d4f27e3f89c71c045703f405": {
+      "chunks": 1,
+      "input_tokens": 216,
+      "max_chunk_tokens": 216,
+      "omitted_tokens": 0,
+      "used_tokens": 216
+    },
+    "155367bd6ebf2e3382fe779074c40b6d8bfbbd1a59d83bb2ddfc3a74c77f06d3": {
+      "chunks": 1,
+      "input_tokens": 223,
+      "max_chunk_tokens": 223,
+      "omitted_tokens": 0,
+      "used_tokens": 223
+    },
+    "15a2ecf6e882f3b6744ab0980b29adfa67f607bf1b2f939dd032c38790fb23a5": {
+      "chunks": 2,
+      "input_tokens": 540,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 540
+    },
+    "15b52235e4315741c89c07f810b650a802d4733f27f8c3d97092e0848c54b515": {
+      "chunks": 1,
+      "input_tokens": 324,
+      "max_chunk_tokens": 324,
+      "omitted_tokens": 0,
+      "used_tokens": 324
+    },
+    "1640d7c5c29f25e251c2597052073d076d125098a7e62807dc02063f68888f28": {
+      "chunks": 1,
+      "input_tokens": 147,
+      "max_chunk_tokens": 147,
+      "omitted_tokens": 0,
+      "used_tokens": 147
+    },
+    "16a356ee636e7606b4d75f12d237b060d3ad9ef79e7ea004aa2725446cddcbf4": {
+      "chunks": 1,
+      "input_tokens": 389,
+      "max_chunk_tokens": 389,
+      "omitted_tokens": 0,
+      "used_tokens": 389
+    },
+    "18525184e190caab72aa4c8b162aaa5c53acc8721b1fbe2f1dced91a8525b894": {
+      "chunks": 1,
+      "input_tokens": 223,
+      "max_chunk_tokens": 223,
+      "omitted_tokens": 0,
+      "used_tokens": 223
+    },
+    "185d84cbfe859ecd166ed23301b336cc02ab272a933d5144d0fe4dbae907f00f": {
+      "chunks": 2,
+      "input_tokens": 711,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 711
+    },
+    "193160fcc62f7f406a4d4602f58ecc086e4064ddf05bd5cada2384c81c0ee4c1": {
+      "chunks": 2,
+      "input_tokens": 892,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 892
+    },
+    "1976e4fcbc4d3da2cec80f24395799326a845008cf70c20ddea82ad6953e452d": {
+      "chunks": 1,
+      "input_tokens": 106,
+      "max_chunk_tokens": 106,
+      "omitted_tokens": 0,
+      "used_tokens": 106
+    },
+    "19986ae24654524288ab523bbb3424f5d3cc003c4b59604a37b68734b6d7295c": {
+      "chunks": 2,
+      "input_tokens": 754,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 754
+    },
+    "1adc177444f027e67ddb5712ce9d2830c417dc4cb8691b90a3c597ded5b26579": {
+      "chunks": 2,
+      "input_tokens": 615,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 615
+    },
+    "1cc8b3c24ae6fcecf396eda8db97b113b99730d74c644e97b1a8e1ba88f30c06": {
+      "chunks": 1,
+      "input_tokens": 186,
+      "max_chunk_tokens": 186,
+      "omitted_tokens": 0,
+      "used_tokens": 186
+    },
+    "1f3510d0303d77aa0afd7c0955cf2d421686019225525cdad5c48503a73fe986": {
+      "chunks": 2,
+      "input_tokens": 801,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 801
+    },
+    "239a13485023176ada15a80f8f5a5dde6c8d4a2bdf501051c40382ace4f1d1bb": {
+      "chunks": 1,
+      "input_tokens": 98,
+      "max_chunk_tokens": 98,
+      "omitted_tokens": 0,
+      "used_tokens": 98
+    },
+    "2482d1933dc26ce1945ea3416e057cfcbf4e5c04ba86176efc64e0f5a88254d5": {
+      "chunks": 1,
+      "input_tokens": 508,
+      "max_chunk_tokens": 508,
+      "omitted_tokens": 0,
+      "used_tokens": 508
+    },
+    "25f65cee3dba979b02dbe0ddbf4b8ba68ea01bff99156530e29afc182545e069": {
+      "chunks": 1,
+      "input_tokens": 432,
+      "max_chunk_tokens": 432,
+      "omitted_tokens": 0,
+      "used_tokens": 432
+    },
+    "265353bc6463605b02baed4497354002c842e48c84baec93b92b200adfba01ac": {
+      "chunks": 2,
+      "input_tokens": 538,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 538
+    },
+    "2668a30b8e4bd848c270c43446f0c69bb5a470bd87f3f39d065db4c49e5bf506": {
+      "chunks": 3,
+      "input_tokens": 1375,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1375
+    },
+    "26a122527621b8d7c55c45b7ee9a4fc8d2e0301f4318656bb35ea3909e0fb6f8": {
+      "chunks": 1,
+      "input_tokens": 25,
+      "max_chunk_tokens": 25,
+      "omitted_tokens": 0,
+      "used_tokens": 25
+    },
+    "274171884dc0725003f4a0e34c06ec9ebae406e0b7368fcf40ba6351aa4c7d2d": {
+      "chunks": 1,
+      "input_tokens": 92,
+      "max_chunk_tokens": 92,
+      "omitted_tokens": 0,
+      "used_tokens": 92
+    },
+    "27ccfb8e7da2c87add14a7b5b8e79424d790ad7ec72503605f22a9047a856f6c": {
+      "chunks": 1,
+      "input_tokens": 441,
+      "max_chunk_tokens": 441,
+      "omitted_tokens": 0,
+      "used_tokens": 441
+    },
+    "27dc5adace647767798da6fbe582116b001f8beec4d6c7a5a18f45953bd75003": {
+      "chunks": 3,
+      "input_tokens": 1080,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1080
+    },
+    "28770928878ca4e9db47293e7b17a4cfc80264bf7bdf1e353ecc4a473707428f": {
+      "chunks": 1,
+      "input_tokens": 369,
+      "max_chunk_tokens": 369,
+      "omitted_tokens": 0,
+      "used_tokens": 369
+    },
+    "28b59f346720ca33e57060223febb16c590698d992153ee4dce191e201271612": {
+      "chunks": 2,
+      "input_tokens": 886,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 886
+    },
+    "28e71d13adefcbc5d1dd298df41e3e28dede229230900b5a2a1ee9dd0b77b718": {
+      "chunks": 2,
+      "input_tokens": 754,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 754
+    },
+    "28f11364b84284fc9dd5e1b4a80b5825d0a5204b9c4958a1347cb2abe43bca36": {
+      "chunks": 1,
+      "input_tokens": 22,
+      "max_chunk_tokens": 22,
+      "omitted_tokens": 0,
+      "used_tokens": 22
+    },
+    "2a91021718e7192360ff5f19a227664bc590ff8aa784655934ab34da3e98d965": {
+      "chunks": 1,
+      "input_tokens": 29,
+      "max_chunk_tokens": 29,
+      "omitted_tokens": 0,
+      "used_tokens": 29
+    },
+    "2a9ae7fec7421fab2d85a9430f49087eed7e9a0d29a6d31372f170e18dd5d6ed": {
+      "chunks": 2,
+      "input_tokens": 964,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 964
+    },
+    "2bfd3a5491e2a81c833767e0b3133c8f5f39255ed3093132b69da5621918b60f": {
+      "chunks": 1,
+      "input_tokens": 194,
+      "max_chunk_tokens": 194,
+      "omitted_tokens": 0,
+      "used_tokens": 194
+    },
+    "2c152023d9fdde4871a563e787e475841b0e515deb42fed4bd6795c33892263b": {
+      "chunks": 1,
+      "input_tokens": 167,
+      "max_chunk_tokens": 167,
+      "omitted_tokens": 0,
+      "used_tokens": 167
+    },
+    "2c178b75ee69a60dea67a54ff5f3e6aba4dd604cdb066bef6346a8db231ad565": {
+      "chunks": 1,
+      "input_tokens": 94,
+      "max_chunk_tokens": 94,
+      "omitted_tokens": 0,
+      "used_tokens": 94
+    },
+    "2c45205807922228ba0710abc1da65fd3638e20968b10688686d385a301a9440": {
+      "chunks": 2,
+      "input_tokens": 881,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 881
+    },
+    "2c58168f915b72b2e20fb87c74b703875628d7ca54c0463066125a7d5bf6764b": {
+      "chunks": 1,
+      "input_tokens": 76,
+      "max_chunk_tokens": 76,
+      "omitted_tokens": 0,
+      "used_tokens": 76
+    },
+    "2cde59ff10c9a88de908745445ae0449a59416c7829f64b4e458dad62390a31a": {
+      "chunks": 1,
+      "input_tokens": 176,
+      "max_chunk_tokens": 176,
+      "omitted_tokens": 0,
+      "used_tokens": 176
+    },
+    "2fbe29c25cc13804420dd969cd768d8cd4846cfa3513c1c384e3c979a4ecc3fd": {
+      "chunks": 4,
+      "input_tokens": 1648,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1648
+    },
+    "3063a7cf5e4bc30c7d6e5144ade82b60acb2bcbce1cfd754356f6fed24660ae2": {
+      "chunks": 2,
+      "input_tokens": 712,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 712
+    },
+    "307d4d4294d8780f732aed0eb6fac41553bff2ca156264fe9bb6a8e8d2ac5d53": {
+      "chunks": 1,
+      "input_tokens": 370,
+      "max_chunk_tokens": 370,
+      "omitted_tokens": 0,
+      "used_tokens": 370
+    },
+    "30d7e959d7df467a8c257b7e9e5c727389ab13a96d07424bf6e4732dc4bf5aa7": {
+      "chunks": 1,
+      "input_tokens": 331,
+      "max_chunk_tokens": 331,
+      "omitted_tokens": 0,
+      "used_tokens": 331
+    },
+    "31502a113ccdfe121cd3541aa01f88fea931471ef537f57e6c1cfed5ff340f08": {
+      "chunks": 2,
+      "input_tokens": 540,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 540
+    },
+    "3216a46dd34efd9aeeb19fd5049a29f4554aad737448a72b14bdd66744967051": {
+      "chunks": 1,
+      "input_tokens": 62,
+      "max_chunk_tokens": 62,
+      "omitted_tokens": 0,
+      "used_tokens": 62
+    },
+    "3396015acf75de5cb58edc5c69f4522120d533c9e2b802384c490b434a8a6c2b": {
+      "chunks": 3,
+      "input_tokens": 1387,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1387
+    },
+    "33d1db09ee9f87ef6f41c9dda83ff572c09a951e21846c567f2e936c016eac49": {
+      "chunks": 1,
+      "input_tokens": 235,
+      "max_chunk_tokens": 235,
+      "omitted_tokens": 0,
+      "used_tokens": 235
+    },
+    "340c402296785d4e13eb5f21d6a4f7789497c608d8830481dc1372e299a0a69e": {
+      "chunks": 1,
+      "input_tokens": 369,
+      "max_chunk_tokens": 369,
+      "omitted_tokens": 0,
+      "used_tokens": 369
+    },
+    "345a4cc594a064f72e8ee91c377a5eccfd5f7865b9b9e65309af72839940c024": {
+      "chunks": 1,
+      "input_tokens": 50,
+      "max_chunk_tokens": 50,
+      "omitted_tokens": 0,
+      "used_tokens": 50
+    },
+    "34bfaf988b844c7ec48bbb361d2264ea9ec5412a39293c909111298d0b82aaaf": {
+      "chunks": 1,
+      "input_tokens": 436,
+      "max_chunk_tokens": 436,
+      "omitted_tokens": 0,
+      "used_tokens": 436
+    },
+    "350106cd89a60b346ee4757818ec7b5aab0ea3562ddeb893d25d84a6fcf49310": {
+      "chunks": 2,
+      "input_tokens": 715,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 715
+    },
+    "354acd1a52d32ad887e4c9725b1811b8cb5a6f61f5d8d08b58573cdfdbb8ff1d": {
+      "chunks": 1,
+      "input_tokens": 368,
+      "max_chunk_tokens": 368,
+      "omitted_tokens": 0,
+      "used_tokens": 368
+    },
+    "3577cd4ded730200214f69ca35106abe0195e39db39eaa5112c9798bd4b57920": {
+      "chunks": 1,
+      "input_tokens": 55,
+      "max_chunk_tokens": 55,
+      "omitted_tokens": 0,
+      "used_tokens": 55
+    },
+    "35ac042c534786daeb4d91dfeb8697d785ebfbd56b9cd0b323c04a04fe352373": {
+      "chunks": 2,
+      "input_tokens": 755,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 755
+    },
+    "368c55616100fa1ce7ccdc53849b30b8e876c52a7aa38020165914472473951f": {
+      "chunks": 1,
+      "input_tokens": 168,
+      "max_chunk_tokens": 168,
+      "omitted_tokens": 0,
+      "used_tokens": 168
+    },
+    "369650b433d1d35349db445fe7d8cb282428847fe0224dc1f54d191b30a575f2": {
+      "chunks": 2,
+      "input_tokens": 576,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 576
+    },
+    "38048f5e3abb05709c1abafcfa07164b81999f2565d98cab60654f09371ace94": {
+      "chunks": 1,
+      "input_tokens": 172,
+      "max_chunk_tokens": 172,
+      "omitted_tokens": 0,
+      "used_tokens": 172
+    },
+    "38f3662907c96cba9bed201de5851113cd97cfcd2f19bccbc80f6f1d81a409de": {
+      "chunks": 2,
+      "input_tokens": 615,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 615
+    },
+    "395d21f4788f38a0da6bcb719b94fc6883f5d38f355d214a0013614e9b7cd55e": {
+      "chunks": 2,
+      "input_tokens": 604,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 604
+    },
+    "3976c72d2e334b0e5af265295ee1050f749dfe9e0a8315f868981f36afacf23d": {
+      "chunks": 3,
+      "input_tokens": 1080,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1080
+    },
+    "39e6f7c9961c156729e7f65f0f8469d20485f5a1a9f82830c2be3901556d6043": {
+      "chunks": 1,
+      "input_tokens": 37,
+      "max_chunk_tokens": 37,
+      "omitted_tokens": 0,
+      "used_tokens": 37
+    },
+    "3b072d29f79e1ba9a101470f1f122903cac8fb249135f40e406567adf2106c45": {
+      "chunks": 1,
+      "input_tokens": 205,
+      "max_chunk_tokens": 205,
+      "omitted_tokens": 0,
+      "used_tokens": 205
+    },
+    "3b5eae36b946943fee2ca70538f6ab0f565ca414da777d2b61961298e156d98f": {
+      "chunks": 1,
+      "input_tokens": 169,
+      "max_chunk_tokens": 169,
+      "omitted_tokens": 0,
+      "used_tokens": 169
+    },
+    "3b9f4a679fb8d513b0bb29246c9d3c1400c3420f61ff8b20d0aed17d6569c0a0": {
+      "chunks": 3,
+      "input_tokens": 1041,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1041
+    },
+    "3ba0777d94ebe95465cab140d76ceb5662e924322182fb289fd631ff2d517aa7": {
+      "chunks": 1,
+      "input_tokens": 94,
+      "max_chunk_tokens": 94,
+      "omitted_tokens": 0,
+      "used_tokens": 94
+    },
+    "3c28aa243d23417131f426e3478cb17890796880578882d9130ae387b3b0870e": {
+      "chunks": 2,
+      "input_tokens": 882,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 882
+    },
+    "3c7873c5870845981ac1ac774c48b6ea87c660dcbb840573c3f1317a3c5153fd": {
+      "chunks": 1,
+      "input_tokens": 178,
+      "max_chunk_tokens": 178,
+      "omitted_tokens": 0,
+      "used_tokens": 178
+    },
+    "3e9375141752d8b62010b368b7115e937fde19741329a9bd62125981c80a014d": {
+      "chunks": 1,
+      "input_tokens": 87,
+      "max_chunk_tokens": 87,
+      "omitted_tokens": 0,
+      "used_tokens": 87
+    },
+    "3f94f415884498cdf74ec106f39fb970d62e0ca86a85164e1d61433187baf086": {
+      "chunks": 1,
+      "input_tokens": 185,
+      "max_chunk_tokens": 185,
+      "omitted_tokens": 0,
+      "used_tokens": 185
+    },
+    "402f262c42e3db59878548096c521880642c63f82e064e4bf51253ee917585ff": {
+      "chunks": 1,
+      "input_tokens": 330,
+      "max_chunk_tokens": 330,
+      "omitted_tokens": 0,
+      "used_tokens": 330
+    },
+    "4098a44eeb34eda45ee72406a0c024cc72543790e3c3d7d0ede8c12c39c0845b": {
+      "chunks": 2,
+      "input_tokens": 885,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 885
+    },
+    "41be4b31075796ad0215a49e2ced1fb41a3897bd9a618df78d6a2376f4591bc0": {
+      "chunks": 3,
+      "input_tokens": 1080,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1080
+    },
+    "41eff3b2daef76d9ef39c8f7007e69cd98088b6028b1520be5ceb29d1453e776": {
+      "chunks": 2,
+      "input_tokens": 799,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 799
+    },
+    "42322a95a482750fe3988e121c1377ce0d2cd033af53a797f2d00f2b74d1b14a": {
+      "chunks": 1,
+      "input_tokens": 194,
+      "max_chunk_tokens": 194,
+      "omitted_tokens": 0,
+      "used_tokens": 194
+    },
+    "4369cc0c0860846d20ce2697024aaf1f294d50fd3a2cf00987fdc8856e8e6d60": {
+      "chunks": 1,
+      "input_tokens": 10,
+      "max_chunk_tokens": 10,
+      "omitted_tokens": 0,
+      "used_tokens": 10
+    },
+    "441ef376e2379d477e7c84fff80932bd91088fddafb1723d7e36244dafe5a1fc": {
+      "chunks": 1,
+      "input_tokens": 16,
+      "max_chunk_tokens": 16,
+      "omitted_tokens": 0,
+      "used_tokens": 16
+    },
+    "451d108a5703f98349a59a77b9b3fcf5794a0e56da4d02d6480b9fd3f39d660e": {
+      "chunks": 2,
+      "input_tokens": 912,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 912
+    },
+    "47fdc2c8ec30748b98101dc9fefd8447a2269c8107ad6cbc6adc11f5f8c177f8": {
+      "chunks": 1,
+      "input_tokens": 276,
+      "max_chunk_tokens": 276,
+      "omitted_tokens": 0,
+      "used_tokens": 276
+    },
+    "48fe80994e76fd36de5872f7a35d4c9e0963a46b94fb87608937ef8f0568bb42": {
+      "chunks": 2,
+      "input_tokens": 884,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 884
+    },
+    "491d343af83252d583cbac92140ce548b2d06e7ded98ce0ca9380046fb741db3": {
+      "chunks": 1,
+      "input_tokens": 206,
+      "max_chunk_tokens": 206,
+      "omitted_tokens": 0,
+      "used_tokens": 206
+    },
+    "49f9c3d7771f4020c0e66b228678b2b85ba955beecf9f4a6b2bc6dee9c75d0ee": {
+      "chunks": 1,
+      "input_tokens": 181,
+      "max_chunk_tokens": 181,
+      "omitted_tokens": 0,
+      "used_tokens": 181
+    },
+    "4a9091930824e8729d03e752d6131185e223e5c32f1c2736df375c2fd75daf3c": {
+      "chunks": 1,
+      "input_tokens": 34,
+      "max_chunk_tokens": 34,
+      "omitted_tokens": 0,
+      "used_tokens": 34
+    },
+    "4afdd68cab6096b9ed316c3d417cb9cd933a9487fa2a3165959ae32aa5b12b5e": {
+      "chunks": 1,
+      "input_tokens": 187,
+      "max_chunk_tokens": 187,
+      "omitted_tokens": 0,
+      "used_tokens": 187
+    },
+    "4b429f5ba121a6332afab5cb0a3517def24f86e4c8f0b206c79f2b3b5bd23cc9": {
+      "chunks": 2,
+      "input_tokens": 754,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 754
+    },
+    "4c6d05800ba02028f09ad44f3fcf4355a79347c1731ba14011d9b94f7ccfc486": {
+      "chunks": 2,
+      "input_tokens": 705,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 705
+    },
+    "4d70261108f5512b01c68134b14e400c3b71f86a6ac4858df7d6dfd132859266": {
+      "chunks": 2,
+      "input_tokens": 712,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 712
+    },
+    "4e845386ae2a92b4aa108a19f375153d04c1a5e39bffdc884b08eafe89bcab5d": {
+      "chunks": 1,
+      "input_tokens": 76,
+      "max_chunk_tokens": 76,
+      "omitted_tokens": 0,
+      "used_tokens": 76
+    },
+    "4ef5369e75f33dac9485b3b14b3f47c22679c3cb41858ca7f1e36e658aaa9e57": {
+      "chunks": 1,
+      "input_tokens": 172,
+      "max_chunk_tokens": 172,
+      "omitted_tokens": 0,
+      "used_tokens": 172
+    },
+    "4fc6737522c7ba931b3c5f87e282a1ad6325f17e166ad9246e99ad061db11c81": {
+      "chunks": 3,
+      "input_tokens": 1040,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1040
+    },
+    "4fdb6b3dbcbe02db8794266fd08c05b8c40127cd89454c26b52e06c6176711d1": {
+      "chunks": 3,
+      "input_tokens": 1078,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1078
+    },
+    "50bb5aec78be0363b8fd222a576f53f07c70d016888e492afb84b68859e5b641": {
+      "chunks": 2,
+      "input_tokens": 703,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 703
+    },
+    "5417cf5807a6f6b0ea8c1c772ffdc64bd77b654f5669331ebd50de50289021de": {
+      "chunks": 2,
+      "input_tokens": 754,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 754
+    },
+    "549b12c293a5a5332b7e670d9a76596b6c70aa5a50c7f6f0cac2b353406ef790": {
+      "chunks": 1,
+      "input_tokens": 115,
+      "max_chunk_tokens": 115,
+      "omitted_tokens": 0,
+      "used_tokens": 115
+    },
+    "561874d5938a329683cc5c9c9ac7d6fedfb96a0829eea8c9a70941f6e7c53574": {
+      "chunks": 1,
+      "input_tokens": 68,
+      "max_chunk_tokens": 68,
+      "omitted_tokens": 0,
+      "used_tokens": 68
+    },
+    "563ece06c5bfa6f6056b1be7f91344bff2914b249387ef2b85849adf267141e8": {
+      "chunks": 2,
+      "input_tokens": 934,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 934
+    },
+    "5709b9bcbf0c9f706644375c3091baed9841a33aad280fb1c77ba2528318eeef": {
+      "chunks": 1,
+      "input_tokens": 332,
+      "max_chunk_tokens": 332,
+      "omitted_tokens": 0,
+      "used_tokens": 332
+    },
+    "5744f365793e5dabdfd22fdd4e4c6f1464cf60f41fdd36763f61ba4d0b303083": {
+      "chunks": 1,
+      "input_tokens": 187,
+      "max_chunk_tokens": 187,
+      "omitted_tokens": 0,
+      "used_tokens": 187
+    },
+    "574af001b41e29cccd62cda5200fcc7098cbbc517eedb7fac72d997c5faa219a": {
+      "chunks": 2,
+      "input_tokens": 901,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 901
+    },
+    "5759320f3f66dae9fae53b01392ebc1bcf39b3cdf39703a8ef4fd2a8a19ab6fc": {
+      "chunks": 1,
+      "input_tokens": 185,
+      "max_chunk_tokens": 185,
+      "omitted_tokens": 0,
+      "used_tokens": 185
+    },
+    "58300226ea5f94d462f3ac9c0836608bcf00be63701713d16d413b2e103c4ad4": {
+      "chunks": 3,
+      "input_tokens": 1392,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1392
+    },
+    "586a2c97d1ee6023c03cbaba4749f9a9717268c8c7ee3eb3c71eae543e7fd93d": {
+      "chunks": 3,
+      "input_tokens": 1078,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1078
+    },
+    "58c156a32aa9524c750197ecfdabbc62bb9eab7953231daab55cc517ffa0e098": {
+      "chunks": 1,
+      "input_tokens": 223,
+      "max_chunk_tokens": 223,
+      "omitted_tokens": 0,
+      "used_tokens": 223
+    },
+    "59abdbece09f4303d7b8443677ea9c5d5b677f55132cf64f32c49a9d95ab5271": {
+      "chunks": 1,
+      "input_tokens": 24,
+      "max_chunk_tokens": 24,
+      "omitted_tokens": 0,
+      "used_tokens": 24
+    },
+    "5a11b8cf3aa1ce722e76d6eccf6fd803f000b6cbafe61c3b2e22892e25ac8f10": {
+      "chunks": 2,
+      "input_tokens": 711,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 711
+    },
+    "5adbda633880b2fe32b86c1d769c41d11dc36a6d4b64bd09d42d33e69f42a7bc": {
+      "chunks": 4,
+      "input_tokens": 1646,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1646
+    },
+    "5adec7f4a7ecd1af0984eff0a4fb8466f820327f748b68420f06d52a4067d2ac": {
+      "chunks": 2,
+      "input_tokens": 886,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 886
+    },
+    "5af0b8732fac20f1b9092f5ac6f7a8b61a21d9f1d256022509e6d5e572a10103": {
+      "chunks": 4,
+      "input_tokens": 1647,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1647
+    },
+    "5b06e67a2e0e96c626afc9660a1b3343650f488a5a5dbd825fc7e5cf76425ad5": {
+      "chunks": 1,
+      "input_tokens": 69,
+      "max_chunk_tokens": 69,
+      "omitted_tokens": 0,
+      "used_tokens": 69
+    },
+    "5b153257d851bc67588b64d91a0ccaa6f6ae37714744fef53d87c06d1a1188fc": {
+      "chunks": 3,
+      "input_tokens": 1040,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1040
+    },
+    "5b1570b182b5a0be27248590f274a6f5cfeabf551fc6a66209ed21b0da29460a": {
+      "chunks": 1,
+      "input_tokens": 422,
+      "max_chunk_tokens": 422,
+      "omitted_tokens": 0,
+      "used_tokens": 422
+    },
+    "5cba634ee6cdb5ab0cfec4801b502020e1caaba80d44d2f73c553ee9b066f54f": {
+      "chunks": 2,
+      "input_tokens": 516,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 516
+    },
+    "5cf71dbbc4f49a9a3832b8d1147dce2797480a4834f551e2b9c83372ceee895c": {
+      "chunks": 1,
+      "input_tokens": 304,
+      "max_chunk_tokens": 304,
+      "omitted_tokens": 0,
+      "used_tokens": 304
+    },
+    "5cfc99b2a056ed8d6e188a096d7eef222f78ac5000cd358c682628c9779e9c86": {
+      "chunks": 1,
+      "input_tokens": 146,
+      "max_chunk_tokens": 146,
+      "omitted_tokens": 0,
+      "used_tokens": 146
+    },
+    "5e1ea5c60f66694ca3c4ddd7676d3f58dbdad9a413bfde139e05a5f601b2d3ee": {
+      "chunks": 2,
+      "input_tokens": 573,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 573
+    },
+    "5eea3b4a5602de215730e141743215aeff6d69cd799488628585a630d4206dfe": {
+      "chunks": 2,
+      "input_tokens": 800,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 800
+    },
+    "5f0fd4f192cb2271c1ff8770c1e03a01651365abc94a3926959dcd529addf3d0": {
+      "chunks": 1,
+      "input_tokens": 360,
+      "max_chunk_tokens": 360,
+      "omitted_tokens": 0,
+      "used_tokens": 360
+    },
+    "5f25de0586637556556ab16f9de85b6722e223383f86deaa96f3b37558444b34": {
+      "chunks": 1,
+      "input_tokens": 230,
+      "max_chunk_tokens": 230,
+      "omitted_tokens": 0,
+      "used_tokens": 230
+    },
+    "5fb69806d4ed390254c44b654eb696930fcdcad1eed992518f21d9220ac8f9ca": {
+      "chunks": 3,
+      "input_tokens": 1078,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1078
+    },
+    "5fbd7b4bbec3ee064481790478954cf4f7eeb3a8c6ec2a31d82213bab86386e6": {
+      "chunks": 1,
+      "input_tokens": 104,
+      "max_chunk_tokens": 104,
+      "omitted_tokens": 0,
+      "used_tokens": 104
+    },
+    "62346499103a23c5864abd8a362a9b60718856ad5bf756bb304c84b7e5da440c": {
+      "chunks": 1,
+      "input_tokens": 368,
+      "max_chunk_tokens": 368,
+      "omitted_tokens": 0,
+      "used_tokens": 368
+    },
+    "6399330c0a9be4154818834da786d009078b6396701e5d7add90fd1150a704a5": {
+      "chunks": 1,
+      "input_tokens": 317,
+      "max_chunk_tokens": 317,
+      "omitted_tokens": 0,
+      "used_tokens": 317
+    },
+    "63ba34e60cf63f31cd7f98a18e1a71384ce9ca319359efc06157df625aeb0b5d": {
+      "chunks": 1,
+      "input_tokens": 454,
+      "max_chunk_tokens": 454,
+      "omitted_tokens": 0,
+      "used_tokens": 454
+    },
+    "63c22069839e06af217bbe8722446aeceb4f80a732a2a2207595b7946a55f57e": {
+      "chunks": 1,
+      "input_tokens": 94,
+      "max_chunk_tokens": 94,
+      "omitted_tokens": 0,
+      "used_tokens": 94
+    },
+    "644bbe4d29695e2fc9e5a1452e26cdada3d48c071f9728523fc022f5320c339a": {
+      "chunks": 2,
+      "input_tokens": 755,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 755
+    },
+    "645379af9b78273ef23ff04004bee55c5bc3953a00a76751f0dc5ca31cbeae11": {
+      "chunks": 1,
+      "input_tokens": 83,
+      "max_chunk_tokens": 83,
+      "omitted_tokens": 0,
+      "used_tokens": 83
+    },
+    "6501afbdc8028d6627638c2ac1f58b43eb388265875cfe61eacea75d4cbe43b7": {
+      "chunks": 1,
+      "input_tokens": 17,
+      "max_chunk_tokens": 17,
+      "omitted_tokens": 0,
+      "used_tokens": 17
+    },
+    "668d74aa2828a5412c3572745fa916d4d83e5f7c87f57c43593167d76ff82c49": {
+      "chunks": 1,
+      "input_tokens": 510,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 510
+    },
+    "66faabc5cc1fc4e4206b075e9b2805b60dafadf285552701e2ced64e1f23e2b6": {
+      "chunks": 2,
+      "input_tokens": 960,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 960
+    },
+    "681dd3ab346dadbc260c7c0e1243459a86b0770e4d6443847222dd5575babbec": {
+      "chunks": 1,
+      "input_tokens": 257,
+      "max_chunk_tokens": 257,
+      "omitted_tokens": 0,
+      "used_tokens": 257
+    },
+    "6848f61dff75bd20ffb60ecdfda19edc0eb22b6b6cfe12e3a5e85e8b5d3bf147": {
+      "chunks": 1,
+      "input_tokens": 169,
+      "max_chunk_tokens": 169,
+      "omitted_tokens": 0,
+      "used_tokens": 169
+    },
+    "69251f17c46b06f00f959cad34a56c30bdf8c767a4aeb61cf2f8c4a92fa74ede": {
+      "chunks": 1,
+      "input_tokens": 370,
+      "max_chunk_tokens": 370,
+      "omitted_tokens": 0,
+      "used_tokens": 370
+    },
+    "697c870af802317e6d4c61e4e481666e7fa50f033bd2cf748a2be0d51ad6181b": {
+      "chunks": 1,
+      "input_tokens": 173,
+      "max_chunk_tokens": 173,
+      "omitted_tokens": 0,
+      "used_tokens": 173
+    },
+    "6c03b8582d29b71c94260c9bd256882f939ac370e5713df91eba4e701bbc24d2": {
+      "chunks": 1,
+      "input_tokens": 274,
+      "max_chunk_tokens": 274,
+      "omitted_tokens": 0,
+      "used_tokens": 274
+    },
+    "6c78e49c047745f8182549d378f7f3c5ef91b8db5f0e5b548c2e5d30d5195936": {
+      "chunks": 1,
+      "input_tokens": 421,
+      "max_chunk_tokens": 421,
+      "omitted_tokens": 0,
+      "used_tokens": 421
+    },
+    "6e05ac4f2556afaad0309a7cd37445b03ff3196123a433b505274716908b6092": {
+      "chunks": 1,
+      "input_tokens": 106,
+      "max_chunk_tokens": 106,
+      "omitted_tokens": 0,
+      "used_tokens": 106
+    },
+    "6e547bfd0e93aa070036e51108b4e2e048be7925e0c95a135e7005d24e0b910c": {
+      "chunks": 1,
+      "input_tokens": 411,
+      "max_chunk_tokens": 411,
+      "omitted_tokens": 0,
+      "used_tokens": 411
+    },
+    "6e5d6aebc2ee5cab6b1ead857dcbec8833e85fa953d98829dbbeb02aa0307454": {
+      "chunks": 1,
+      "input_tokens": 422,
+      "max_chunk_tokens": 422,
+      "omitted_tokens": 0,
+      "used_tokens": 422
+    },
+    "6e7ae8f262b1a1f9c25c0c2a24a1358432ede8608b76b901f83b790b9b16e06b": {
+      "chunks": 4,
+      "input_tokens": 1647,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1647
+    },
+    "7039c8a12e4bf6d4077769be474126b74182859ffd0a92d764dcd8aa481a7da4": {
+      "chunks": 2,
+      "input_tokens": 894,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 894
+    },
+    "70a1a9192ff106a79c6da571feb85032ffab7805048f645fbda20b1fc076d8a6": {
+      "chunks": 1,
+      "input_tokens": 84,
+      "max_chunk_tokens": 84,
+      "omitted_tokens": 0,
+      "used_tokens": 84
+    },
+    "70cdd42b6f08a0c4869b556a00548be39f1585906da17b98b3a96c4a943b5114": {
+      "chunks": 1,
+      "input_tokens": 129,
+      "max_chunk_tokens": 129,
+      "omitted_tokens": 0,
+      "used_tokens": 129
+    },
+    "72063be0ea0e074f3455541924a336b94411cba0cdca79d0c4e1ab6cbddddad5": {
+      "chunks": 2,
+      "input_tokens": 931,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 931
+    },
+    "732bc4a22f0fa3a68e8feca515a36e831046ec1d57636bb6ba910948b2ccccb3": {
+      "chunks": 1,
+      "input_tokens": 458,
+      "max_chunk_tokens": 458,
+      "omitted_tokens": 0,
+      "used_tokens": 458
+    },
+    "74a1feab07f751172b8841f5b33cde6902c825e12e5c00d16af0696463575bf0": {
+      "chunks": 2,
+      "input_tokens": 993,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 993
+    },
+    "762ecf72cce236b11db5f32664a8fe591233f1343a06036b1824837ec446f1b2": {
+      "chunks": 4,
+      "input_tokens": 1640,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1640
+    },
+    "78417ce69a92bb632e5f4b949208984a3ae4a05d3dbb50fa13ecff743d3f1548": {
+      "chunks": 3,
+      "input_tokens": 1392,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1392
+    },
+    "78c8d491d7ddace8a9728fdb3cb5d0a7cb580a6d04772380a33b5b38024a47aa": {
+      "chunks": 2,
+      "input_tokens": 921,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 921
+    },
+    "7a9160c2e8b9c2402cae48ab9d7b55cf2fbc45d60461238114e94cbb5b7cff65": {
+      "chunks": 1,
+      "input_tokens": 234,
+      "max_chunk_tokens": 234,
+      "omitted_tokens": 0,
+      "used_tokens": 234
+    },
+    "7acfa32feab798d2b1379b2309edd7e2427dd4f42e35d8eb97797f1c196548b3": {
+      "chunks": 1,
+      "input_tokens": 339,
+      "max_chunk_tokens": 339,
+      "omitted_tokens": 0,
+      "used_tokens": 339
+    },
+    "7af2372c577f80b2f911500d51fb3160e031f25adc036e7d63555930a52ca392": {
+      "chunks": 1,
+      "input_tokens": 421,
+      "max_chunk_tokens": 421,
+      "omitted_tokens": 0,
+      "used_tokens": 421
+    },
+    "7c87f36826b6f3402a673efae4cd521b357f869ea63da2b3a059a8f66640ef85": {
+      "chunks": 1,
+      "input_tokens": 441,
+      "max_chunk_tokens": 441,
+      "omitted_tokens": 0,
+      "used_tokens": 441
+    },
+    "7cb834cd7888933356aabdea7e610b9be59aa7857ce66cb50d2665310ba34359": {
+      "chunks": 2,
+      "input_tokens": 603,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 603
+    },
+    "7dc971b2ef3ad0f3f9cc1f7aa2fda2f8fe305ea6382e6914551decb4bffdf281": {
+      "chunks": 1,
+      "input_tokens": 108,
+      "max_chunk_tokens": 108,
+      "omitted_tokens": 0,
+      "used_tokens": 108
+    },
+    "7fca0256ef0b247c5d0b7f69a00092f1d9c0f0c06e157956e8e2c75a60451a1a": {
+      "chunks": 1,
+      "input_tokens": 80,
+      "max_chunk_tokens": 80,
+      "omitted_tokens": 0,
+      "used_tokens": 80
+    },
+    "7ffd15eef7845a411e5bcf5733a25e857bb3f3326d8ff838e677018571d9f1f7": {
+      "chunks": 1,
+      "input_tokens": 186,
+      "max_chunk_tokens": 186,
+      "omitted_tokens": 0,
+      "used_tokens": 186
+    },
+    "8029cb1fc00c3479cbf1c7805dc4402cc55a9e1cefa6c9aeb5b8a2eb0405d8d9": {
+      "chunks": 1,
+      "input_tokens": 363,
+      "max_chunk_tokens": 363,
+      "omitted_tokens": 0,
+      "used_tokens": 363
+    },
+    "80c31409d9d26a17b885098c1e7fbc3bd54dfbcef8861dbc5c6b978fe4241eb8": {
+      "chunks": 2,
+      "input_tokens": 916,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 916
+    },
+    "818bc3f40afb78d63ba92b5e141a94132d4065e1ce18503afbc06d8dd2706c08": {
+      "chunks": 1,
+      "input_tokens": 185,
+      "max_chunk_tokens": 185,
+      "omitted_tokens": 0,
+      "used_tokens": 185
+    },
+    "859041014a4ea53135590ec38a4d56f72c413db9d36a4511c284f4b4af18c002": {
+      "chunks": 1,
+      "input_tokens": 148,
+      "max_chunk_tokens": 148,
+      "omitted_tokens": 0,
+      "used_tokens": 148
+    },
+    "85bba3c16b48c55620fd699d3d61fdd378d508fd1c8da933085ffc8694ab5321": {
+      "chunks": 1,
+      "input_tokens": 16,
+      "max_chunk_tokens": 16,
+      "omitted_tokens": 0,
+      "used_tokens": 16
+    },
+    "87245faf21d4ae8b5a450871ee3f65b46f580e10256af17341878f4bc3c8770a": {
+      "chunks": 1,
+      "input_tokens": 34,
+      "max_chunk_tokens": 34,
+      "omitted_tokens": 0,
+      "used_tokens": 34
+    },
+    "87a1ae23c6883b1b29225d8ca6e81928ab10f6e23202ffad185733df74f3de3b": {
+      "chunks": 1,
+      "input_tokens": 291,
+      "max_chunk_tokens": 291,
+      "omitted_tokens": 0,
+      "used_tokens": 291
+    },
+    "87f2eddede5c476cecf170b5fe2ef334a85f00b2bc29ab29b7732c8552d04b1b": {
+      "chunks": 3,
+      "input_tokens": 1375,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1375
+    },
+    "897ebefcea8be3bf35b5ebbc941d6ac42966fa6cac161db86642eb091e8f263d": {
+      "chunks": 2,
+      "input_tokens": 801,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 801
+    },
+    "89a54100bf52fd47d00eeec7aa077262afd47f5b17c9534b57e11ff1eefb6340": {
+      "chunks": 1,
+      "input_tokens": 190,
+      "max_chunk_tokens": 190,
+      "omitted_tokens": 0,
+      "used_tokens": 190
+    },
+    "89ac376628f65bf1829f3ca5c8e6bcb18c8b3d1ec631231350029858830274a3": {
+      "chunks": 2,
+      "input_tokens": 924,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 924
+    },
+    "8a4cdb144f5020f4b70cc4ca8c8b7a10e78546951f85d39cc15f615739a98032": {
+      "chunks": 1,
+      "input_tokens": 65,
+      "max_chunk_tokens": 65,
+      "omitted_tokens": 0,
+      "used_tokens": 65
+    },
+    "8a597961fa5d846782f8ccfb53f41d248394d93cd1145c44408572457941f899": {
+      "chunks": 2,
+      "input_tokens": 798,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 798
+    },
+    "8a9389bcb28d08c8752c9b69d34084a53f387aa111427c5e11ec150ac8738e79": {
+      "chunks": 3,
+      "input_tokens": 1385,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1385
+    },
+    "8cc91c0aebf8317e908afc98581c5992040659db28b690d42c118ad116de223f": {
+      "chunks": 1,
+      "input_tokens": 121,
+      "max_chunk_tokens": 121,
+      "omitted_tokens": 0,
+      "used_tokens": 121
+    },
+    "8d699c552a175910976fc41237eeaa4fb3376cac1d2124a4f9e00f1d946c0ef0": {
+      "chunks": 1,
+      "input_tokens": 104,
+      "max_chunk_tokens": 104,
+      "omitted_tokens": 0,
+      "used_tokens": 104
+    },
+    "8d9bd805b1636c9c4305092620a03bd75c30f1c64cd2ed6dead1567831b29d36": {
+      "chunks": 1,
+      "input_tokens": 178,
+      "max_chunk_tokens": 178,
+      "omitted_tokens": 0,
+      "used_tokens": 178
+    },
+    "8da928edcc344ffcee9075d1f525a369736e751dd36d32e1d0935222a103b5f2": {
+      "chunks": 1,
+      "input_tokens": 421,
+      "max_chunk_tokens": 421,
+      "omitted_tokens": 0,
+      "used_tokens": 421
+    },
+    "8df91342a16ba2af6c82128f7e9d763b45eafb3fa3f9c05817349b695974aacf": {
+      "chunks": 1,
+      "input_tokens": 237,
+      "max_chunk_tokens": 237,
+      "omitted_tokens": 0,
+      "used_tokens": 237
+    },
+    "8e53d49672a84c6d2cd9015ef03262960ed2c166b3fddafd46f8ab4574b1e54a": {
+      "chunks": 1,
+      "input_tokens": 76,
+      "max_chunk_tokens": 76,
+      "omitted_tokens": 0,
+      "used_tokens": 76
+    },
+    "8f49fea39a563f8ac5b1983aac9e58cc59aba22e42b3b60258ce80199a7df3f3": {
+      "chunks": 2,
+      "input_tokens": 615,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 615
+    },
+    "8ff57367bc19674afeff0d60e6dc15aec454ef850f9efdc9d708988f875bd418": {
+      "chunks": 2,
+      "input_tokens": 754,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 754
+    },
+    "90ecc88351ff5aceba3c3dece27c97e9482d31ed8a4d686c4043764a7bd5b1b1": {
+      "chunks": 1,
+      "input_tokens": 224,
+      "max_chunk_tokens": 224,
+      "omitted_tokens": 0,
+      "used_tokens": 224
+    },
+    "917baf70eca814eae8f7981972abed611b866b748700680065dc13ab1f5c5c83": {
+      "chunks": 1,
+      "input_tokens": 24,
+      "max_chunk_tokens": 24,
+      "omitted_tokens": 0,
+      "used_tokens": 24
+    },
+    "93044c83637cb52177e6dc1e1ab161f156d30a5d88b23ab3805de65e5f44d2a3": {
+      "chunks": 2,
+      "input_tokens": 711,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 711
+    },
+    "93a255dbb8aee72343876a41a35ac487a771b4adf7c5a33213dfec8149f1ba53": {
+      "chunks": 1,
+      "input_tokens": 182,
+      "max_chunk_tokens": 182,
+      "omitted_tokens": 0,
+      "used_tokens": 182
+    },
+    "9460ad3d18fa064877b4f6d311b7c7a998204e362b61448c726e9c5e76f29b6e": {
+      "chunks": 1,
+      "input_tokens": 215,
+      "max_chunk_tokens": 215,
+      "omitted_tokens": 0,
+      "used_tokens": 215
+    },
+    "96e14f06b7858b08fe8e523bbecd71361a935b5e13ed587e34cd127bc84da0cc": {
+      "chunks": 1,
+      "input_tokens": 387,
+      "max_chunk_tokens": 387,
+      "omitted_tokens": 0,
+      "used_tokens": 387
+    },
+    "9898f43b2678c650d6096fa3ef6c01131f1c33ef5de0f267dda9d051e198e51d": {
+      "chunks": 2,
+      "input_tokens": 964,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 964
+    },
+    "99e2788a7f6f767527760950096587a8438cf25cff5addce58a825b2fb39e8e5": {
+      "chunks": 1,
+      "input_tokens": 422,
+      "max_chunk_tokens": 422,
+      "omitted_tokens": 0,
+      "used_tokens": 422
+    },
+    "99ed9a82c2edfe72428dfaa3ce1ebd94111f2c20632c2048e77002aedc90036d": {
+      "chunks": 2,
+      "input_tokens": 711,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 711
+    },
+    "9a612cb402ad138fe6edcb1d6cc13e9b6dc7f77f1b614e1247cff9d74209369c": {
+      "chunks": 2,
+      "input_tokens": 573,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 573
+    },
+    "9a81d48a2ed69179871feed89f6fb52b2ee16f1608a093ecf624cc4d413ece3d": {
+      "chunks": 1,
+      "input_tokens": 500,
+      "max_chunk_tokens": 500,
+      "omitted_tokens": 0,
+      "used_tokens": 500
+    },
+    "9b51c940d2e0fbbba3f348998e60c30f4ee5e211fa28af12b055f530c10f7872": {
+      "chunks": 1,
+      "input_tokens": 170,
+      "max_chunk_tokens": 170,
+      "omitted_tokens": 0,
+      "used_tokens": 170
+    },
+    "9b6672b83a0568e494caf25f34887cdf8afca24d059cc052c2c5ecb2ee06baa3": {
+      "chunks": 1,
+      "input_tokens": 205,
+      "max_chunk_tokens": 205,
+      "omitted_tokens": 0,
+      "used_tokens": 205
+    },
+    "9b8df5a687cf89b81af19d4c9e6041fb84d63274e09fc7d5b4b719aac9461215": {
+      "chunks": 1,
+      "input_tokens": 228,
+      "max_chunk_tokens": 228,
+      "omitted_tokens": 0,
+      "used_tokens": 228
+    },
+    "9bd99bd9542161bbc354aea36e6797fe0a7d9b88c5a51a9b9cee2a4aa79e21ac": {
+      "chunks": 3,
+      "input_tokens": 1080,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1080
+    },
+    "9bebc311eaff2930ba4d22583749156d3f1e24ea770b0010729b4c547c840fb7": {
+      "chunks": 1,
+      "input_tokens": 171,
+      "max_chunk_tokens": 171,
+      "omitted_tokens": 0,
+      "used_tokens": 171
+    },
+    "9c3c88a696a83b6e924dd1a59c99c9123e98efd99f6ae420e65aa9f99b9f527e": {
+      "chunks": 1,
+      "input_tokens": 26,
+      "max_chunk_tokens": 26,
+      "omitted_tokens": 0,
+      "used_tokens": 26
+    },
+    "9ce67a54af2c3dd5c1e9fad1a574344da36845a20678caf6b60d5c63e9c2b5e8": {
+      "chunks": 1,
+      "input_tokens": 233,
+      "max_chunk_tokens": 233,
+      "omitted_tokens": 0,
+      "used_tokens": 233
+    },
+    "9cf59acd4f8a2ff6bdc71b2b369deeddf4eb42d0808da6e73c5f0e83f881b775": {
+      "chunks": 1,
+      "input_tokens": 362,
+      "max_chunk_tokens": 362,
+      "omitted_tokens": 0,
+      "used_tokens": 362
+    },
+    "9d1970dc60b031e89db08c65116a9288383a0c250e5d627b6fefab3d33edde34": {
+      "chunks": 1,
+      "input_tokens": 363,
+      "max_chunk_tokens": 363,
+      "omitted_tokens": 0,
+      "used_tokens": 363
+    },
+    "9da47c6f5727e12aa8bc3d73fc692a54b2fe9657501d3ea59519488bda5e8cd9": {
+      "chunks": 1,
+      "input_tokens": 421,
+      "max_chunk_tokens": 421,
+      "omitted_tokens": 0,
+      "used_tokens": 421
+    },
+    "9db57979cb06919ea940f4060ec02b3452879f95eb13ce971b374490d20b805a": {
+      "chunks": 1,
+      "input_tokens": 180,
+      "max_chunk_tokens": 180,
+      "omitted_tokens": 0,
+      "used_tokens": 180
+    },
+    "9e0079ed535cb8ea241e95c286db69714b533f781bec196ca6f6c71373ff3c31": {
+      "chunks": 1,
+      "input_tokens": 181,
+      "max_chunk_tokens": 181,
+      "omitted_tokens": 0,
+      "used_tokens": 181
+    },
+    "9e8383baf915f3df3723bdb52a7f68b3df6a297ba5e13c39a1cb2861b5e766dd": {
+      "chunks": 1,
+      "input_tokens": 183,
+      "max_chunk_tokens": 183,
+      "omitted_tokens": 0,
+      "used_tokens": 183
+    },
+    "9ed5f7adaa8358ce6d72464992768ef46f406344f8710c004a48776ce34e5f8a": {
+      "chunks": 1,
+      "input_tokens": 363,
+      "max_chunk_tokens": 363,
+      "omitted_tokens": 0,
+      "used_tokens": 363
+    },
+    "9eebd1f036abb707db8909b6afb12065b33a2105edb136f9ad1d1b99ab9b9656": {
+      "chunks": 1,
+      "input_tokens": 13,
+      "max_chunk_tokens": 13,
+      "omitted_tokens": 0,
+      "used_tokens": 13
+    },
+    "9f3aeb81ab70f14472b010504933ee15b3d86ffa8cb801406719be642539fddf": {
+      "chunks": 1,
+      "input_tokens": 422,
+      "max_chunk_tokens": 422,
+      "omitted_tokens": 0,
+      "used_tokens": 422
+    },
+    "9f77694f76675b1c447ea1b14c3330fcd5e3d3867661e9da6ecb256ebad58938": {
+      "chunks": 3,
+      "input_tokens": 1080,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1080
+    },
+    "9fe99d86964c64836dbb8658f28e6b35b787a6548880d4b667adeaaad732f57d": {
+      "chunks": 1,
+      "input_tokens": 122,
+      "max_chunk_tokens": 122,
+      "omitted_tokens": 0,
+      "used_tokens": 122
+    },
+    "a1f47f55d02687d7ce8dc2e2f6aa59700975ab91d3f18f7d0fd903edaaf27cba": {
+      "chunks": 2,
+      "input_tokens": 800,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 800
+    },
+    "a2d2fbe7ee519c31acc941e877f1cae060d04c131e7916d725b11a62122fddf2": {
+      "chunks": 1,
+      "input_tokens": 179,
+      "max_chunk_tokens": 179,
+      "omitted_tokens": 0,
+      "used_tokens": 179
+    },
+    "a417207c6d36f25e9856e202652c95d423a89f7b5be0f7207ad67fd925e488eb": {
+      "chunks": 1,
+      "input_tokens": 185,
+      "max_chunk_tokens": 185,
+      "omitted_tokens": 0,
+      "used_tokens": 185
+    },
+    "a4736f26ff81e83ada36618028c776e21439bf96de6797c7587b06315a882529": {
+      "chunks": 1,
+      "input_tokens": 374,
+      "max_chunk_tokens": 374,
+      "omitted_tokens": 0,
+      "used_tokens": 374
+    },
+    "a51c584ffab90f1f00d1d5a791753b88fd3b69b091292c9607b7d51568355413": {
+      "chunks": 1,
+      "input_tokens": 177,
+      "max_chunk_tokens": 177,
+      "omitted_tokens": 0,
+      "used_tokens": 177
+    },
+    "a78171d9dc42c6d83ebebf7edc89eff90ed921e31d6c867c5e1f126df6ffd8a3": {
+      "chunks": 2,
+      "input_tokens": 801,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 801
+    },
+    "a7c121f22af53f482ed867c5d241373fe92233de328b3c17ca7d74df4ffe7346": {
+      "chunks": 1,
+      "input_tokens": 455,
+      "max_chunk_tokens": 455,
+      "omitted_tokens": 0,
+      "used_tokens": 455
+    },
+    "a7e4cd9bee2161dcd2a1c07fe3e982308affc8cff7488e1ab1175d8a089c20c2": {
+      "chunks": 1,
+      "input_tokens": 59,
+      "max_chunk_tokens": 59,
+      "omitted_tokens": 0,
+      "used_tokens": 59
+    },
+    "a8d5a85245119a28c255c9d2d9f28b839d199e4fbefa03bad526dcca825c014c": {
+      "chunks": 1,
+      "input_tokens": 171,
+      "max_chunk_tokens": 171,
+      "omitted_tokens": 0,
+      "used_tokens": 171
+    },
+    "a9ceccd80fc2c6c8df4061735a09c5af79e56c4471cc213f85c69d1c3d04c3c0": {
+      "chunks": 1,
+      "input_tokens": 441,
+      "max_chunk_tokens": 441,
+      "omitted_tokens": 0,
+      "used_tokens": 441
+    },
+    "a9eb33fd65f2ff5e14a651162bd6f10ad560756c0a63b86af213111591ec3231": {
+      "chunks": 1,
+      "input_tokens": 253,
+      "max_chunk_tokens": 253,
+      "omitted_tokens": 0,
+      "used_tokens": 253
+    },
+    "aa47e6693387d4b23c72955f550f9fca71fb4b2378de6409b9fa8bb79a6b3b56": {
+      "chunks": 2,
+      "input_tokens": 802,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 802
+    },
+    "ab5ed59dd9972576f46e9be2d09abc16c0eb8e3c7f7a29a20976c4b0a28247d3": {
+      "chunks": 1,
+      "input_tokens": 121,
+      "max_chunk_tokens": 121,
+      "omitted_tokens": 0,
+      "used_tokens": 121
+    },
+    "ac271ebb74480ee4520784d90ef7bcb2a8d45019c59b24d594c270b3e3e0125e": {
+      "chunks": 1,
+      "input_tokens": 394,
+      "max_chunk_tokens": 394,
+      "omitted_tokens": 0,
+      "used_tokens": 394
+    },
+    "acb3ea0b79606501f6c1253688cca16679c063e083063ed1a3a06b87729e6b62": {
+      "chunks": 2,
+      "input_tokens": 711,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 711
+    },
+    "accd565183efd02e681f954429d2ba27472abdbd5cc6d06865502faad71f1fb3": {
+      "chunks": 1,
+      "input_tokens": 273,
+      "max_chunk_tokens": 273,
+      "omitted_tokens": 0,
+      "used_tokens": 273
+    },
+    "accdd870caeb5c56d647251ebed9471156b8077d59e83122b151a76c0e8fd142": {
+      "chunks": 1,
+      "input_tokens": 162,
+      "max_chunk_tokens": 162,
+      "omitted_tokens": 0,
+      "used_tokens": 162
+    },
+    "ace7247df0a0b144f7f6eee18f3a371af78ee91df7e5dab9a5a9f58302beec1a": {
+      "chunks": 1,
+      "input_tokens": 235,
+      "max_chunk_tokens": 235,
+      "omitted_tokens": 0,
+      "used_tokens": 235
+    },
+    "b051d9e5dd6b1847147830eb2063154390f97ba155e1a5c74c6ba3a8a6689e00": {
+      "chunks": 1,
+      "input_tokens": 360,
+      "max_chunk_tokens": 360,
+      "omitted_tokens": 0,
+      "used_tokens": 360
+    },
+    "b100c825f008ba190ddc890078124ecba3349d9897e48ffc9e81456c95b4a7ef": {
+      "chunks": 1,
+      "input_tokens": 75,
+      "max_chunk_tokens": 75,
+      "omitted_tokens": 0,
+      "used_tokens": 75
+    },
+    "b12dfd340a190ee80581c02a10f621691555dc58f9a9eed6bc270ea8e6301b78": {
+      "chunks": 1,
+      "input_tokens": 380,
+      "max_chunk_tokens": 380,
+      "omitted_tokens": 0,
+      "used_tokens": 380
+    },
+    "b147edbb76ef9f66eadad187d54d9ee28e7309c7361e1883c0659fe4950b0846": {
+      "chunks": 1,
+      "input_tokens": 26,
+      "max_chunk_tokens": 26,
+      "omitted_tokens": 0,
+      "used_tokens": 26
+    },
+    "b15bb752ff3690d338694257cb999b09102a77e18d53888c5d7ea1c9b832cb42": {
+      "chunks": 2,
+      "input_tokens": 933,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 933
+    },
+    "b17f9e07b034ea494fd233b0659534253218a2cf6870c9d887ec874601175cda": {
+      "chunks": 2,
+      "input_tokens": 994,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 994
+    },
+    "b2600e886ca462b6bf34356019ddee3a2c91ab213f3daa9d1e8ad351d11f30ad": {
+      "chunks": 2,
+      "input_tokens": 964,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 964
+    },
+    "b2de2448ce78033e601c2ac5677b3149d124973fa90a7bbd8e849081a256dbf8": {
+      "chunks": 1,
+      "input_tokens": 172,
+      "max_chunk_tokens": 172,
+      "omitted_tokens": 0,
+      "used_tokens": 172
+    },
+    "b3f506dfe647e2cc618b1aff60feb13c16fb343c9340d54b4b0b3c4941bfc84c": {
+      "chunks": 2,
+      "input_tokens": 711,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 711
+    },
+    "b580338d013c45282f65621a0caf4edc891a9e3974d78744e889549685af41e8": {
+      "chunks": 2,
+      "input_tokens": 894,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 894
+    },
+    "b5e2f6b9e67ab9eba541c5674133c9da5bdf6732aeda4903a4240e4ffd1b3b3a": {
+      "chunks": 1,
+      "input_tokens": 254,
+      "max_chunk_tokens": 254,
+      "omitted_tokens": 0,
+      "used_tokens": 254
+    },
+    "b6bea15815bcf840b5c33ceb64127c2226682d95b5362c4e31f9f8c832d986b4": {
+      "chunks": 1,
+      "input_tokens": 140,
+      "max_chunk_tokens": 140,
+      "omitted_tokens": 0,
+      "used_tokens": 140
+    },
+    "b7e1c0ccdc11e07a733e350a2a0d1569569188c55848c139bc0f5f14baedfeb9": {
+      "chunks": 4,
+      "input_tokens": 1646,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1646
+    },
+    "b7e42bbaaa7184671d162defc969819e741ad96997ddb8acfcb54a4ee3133079": {
+      "chunks": 2,
+      "input_tokens": 562,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 562
+    },
+    "b7f03d82142b59fcd032b7a46af9899d0ee6b1d2bd3de7be507e20a53f9c5d64": {
+      "chunks": 1,
+      "input_tokens": 381,
+      "max_chunk_tokens": 381,
+      "omitted_tokens": 0,
+      "used_tokens": 381
+    },
+    "b8d74bbc9413119e8df7603b6f40da5ffcbd033183346878dd144b63f798c010": {
+      "chunks": 1,
+      "input_tokens": 170,
+      "max_chunk_tokens": 170,
+      "omitted_tokens": 0,
+      "used_tokens": 170
+    },
+    "bb47b46195630fb81f61b392e657069def16b000200a74d3c7073519e59f18ff": {
+      "chunks": 1,
+      "input_tokens": 101,
+      "max_chunk_tokens": 101,
+      "omitted_tokens": 0,
+      "used_tokens": 101
+    },
+    "bb4fe3700660ea24bd578b5b48375fbeb2d53ab66401dd10d166a266ead43cf4": {
+      "chunks": 1,
+      "input_tokens": 371,
+      "max_chunk_tokens": 371,
+      "omitted_tokens": 0,
+      "used_tokens": 371
+    },
+    "bc7e570c797c213fa9ff250c3604b3ee4f107b797b73c9e183ba7587286a0d16": {
+      "chunks": 1,
+      "input_tokens": 125,
+      "max_chunk_tokens": 125,
+      "omitted_tokens": 0,
+      "used_tokens": 125
+    },
+    "bd18b5c0093d2e71b7d6bd168702d59e3e72359423b57b06bbd18b46b05c19b3": {
+      "chunks": 1,
+      "input_tokens": 98,
+      "max_chunk_tokens": 98,
+      "omitted_tokens": 0,
+      "used_tokens": 98
+    },
+    "bddc24115dfc664943bc8caed09423cc6bb56680d6aca0aa547f2cfeae1ae54e": {
+      "chunks": 1,
+      "input_tokens": 91,
+      "max_chunk_tokens": 91,
+      "omitted_tokens": 0,
+      "used_tokens": 91
+    },
+    "bfd95f33ebf1abec5939933d8a5884b12c73bdc5630457a197914cc4c2996e3e": {
+      "chunks": 1,
+      "input_tokens": 367,
+      "max_chunk_tokens": 367,
+      "omitted_tokens": 0,
+      "used_tokens": 367
+    },
+    "c08c58f8f0e15f1e63341d24f91f0f9b48ee9f8fe4c742236c7f19e22af8ef5f": {
+      "chunks": 1,
+      "input_tokens": 70,
+      "max_chunk_tokens": 70,
+      "omitted_tokens": 0,
+      "used_tokens": 70
+    },
+    "c0a249f56e29692f76394202df7d8e84f9a061ab62e09699cafcf3f1d9afb4ce": {
+      "chunks": 1,
+      "input_tokens": 88,
+      "max_chunk_tokens": 88,
+      "omitted_tokens": 0,
+      "used_tokens": 88
+    },
+    "c0b395f888bf6e5b99482c78ef6e1d5522f0a382e38675c17ee30cd843725cae": {
+      "chunks": 1,
+      "input_tokens": 17,
+      "max_chunk_tokens": 17,
+      "omitted_tokens": 0,
+      "used_tokens": 17
+    },
+    "c24f90d454b1160ced59c6188efe8f3a62f28368313ce292e90c41e0c57fbd6a": {
+      "chunks": 1,
+      "input_tokens": 10,
+      "max_chunk_tokens": 10,
+      "omitted_tokens": 0,
+      "used_tokens": 10
+    },
+    "c2541e2a52f8db0cbb363307118abe503e590998198256cb01a9af913f50af5f": {
+      "chunks": 1,
+      "input_tokens": 58,
+      "max_chunk_tokens": 58,
+      "omitted_tokens": 0,
+      "used_tokens": 58
+    },
+    "c25c056b35031c72a643e7df4e4cfefbeb288caddc811bb92768264f6424653e": {
+      "chunks": 1,
+      "input_tokens": 95,
+      "max_chunk_tokens": 95,
+      "omitted_tokens": 0,
+      "used_tokens": 95
+    },
+    "c2dd80f7ad115ce8aab90fce5f36ec29eba3797a2778dcaf1e64d652f82e438f": {
+      "chunks": 1,
+      "input_tokens": 16,
+      "max_chunk_tokens": 16,
+      "omitted_tokens": 0,
+      "used_tokens": 16
+    },
+    "c34db414742afdc5a069fcc8a088e9005379bac4852483b9dffca06f45b860d3": {
+      "chunks": 1,
+      "input_tokens": 440,
+      "max_chunk_tokens": 440,
+      "omitted_tokens": 0,
+      "used_tokens": 440
+    },
+    "c3934d2e52894e44693b20aeba5838eb254d684509239defafa927a1e3c80b93": {
+      "chunks": 2,
+      "input_tokens": 900,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 900
+    },
+    "c43051557557ed56eb1ff4774f39b94d4f9eebee6637c394516aee5cc81b5a97": {
+      "chunks": 1,
+      "input_tokens": 354,
+      "max_chunk_tokens": 354,
+      "omitted_tokens": 0,
+      "used_tokens": 354
+    },
+    "c53ec8369c9e3314aa798d551ce1c4d3282abaa4ab04edabdd9e30c31557a116": {
+      "chunks": 4,
+      "input_tokens": 1649,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1649
+    },
+    "c58f9867345ea53ec3c4f3d1f83f8d46b5c10ad60e67b0dd7d1e386e6d18474e": {
+      "chunks": 1,
+      "input_tokens": 74,
+      "max_chunk_tokens": 74,
+      "omitted_tokens": 0,
+      "used_tokens": 74
+    },
+    "c67275a4f02c82dfd64651df321d37e52de13b25a4ef773bff62698cb98729ca": {
+      "chunks": 1,
+      "input_tokens": 46,
+      "max_chunk_tokens": 46,
+      "omitted_tokens": 0,
+      "used_tokens": 46
+    },
+    "c7fab89c950bd2cad267830df6da08b42bb215b5cd41f53adfa6cdaf8963d0ed": {
+      "chunks": 2,
+      "input_tokens": 931,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 931
+    },
+    "c85b35ba428685d1fcb4b346e0a09999831d18865eb25f34322d8c5fef5197b0": {
+      "chunks": 1,
+      "input_tokens": 114,
+      "max_chunk_tokens": 114,
+      "omitted_tokens": 0,
+      "used_tokens": 114
+    },
+    "c90caa785bd8620a40abc2e8b6573fbb3f4fa2a7913d9f5619eab422b2ef348b": {
+      "chunks": 3,
+      "input_tokens": 1365,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1365
+    },
+    "c974a53a25892a3f28add84e9dbc669fe76d1c1bb9655ec8062cb9213000e419": {
+      "chunks": 1,
+      "input_tokens": 410,
+      "max_chunk_tokens": 410,
+      "omitted_tokens": 0,
+      "used_tokens": 410
+    },
+    "c9aeab9868db1cf3f5cf73de04e1cecfd5e93225b66de6c987ae23fd655700d4": {
+      "chunks": 1,
+      "input_tokens": 186,
+      "max_chunk_tokens": 186,
+      "omitted_tokens": 0,
+      "used_tokens": 186
+    },
+    "c9b5466af274bbdcc4d17baa243ac4cb39a09b0444b8989360745fa3f253a9a0": {
+      "chunks": 1,
+      "input_tokens": 194,
+      "max_chunk_tokens": 194,
+      "omitted_tokens": 0,
+      "used_tokens": 194
+    },
+    "ca21eed10aebd06c4e654d19e981f6bd284f427899374770d4b325b582dfc0a2": {
+      "chunks": 2,
+      "input_tokens": 1001,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1001
+    },
+    "ca2fabce1bbf3756d47ee52b6a5d527878d53c34d14a6acba4ac304eba2ad963": {
+      "chunks": 4,
+      "input_tokens": 1639,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1639
+    },
+    "cac00a3e6ae75b935a4474a1a9372ecffccf75320e0a13ca49c9d24f755d6be0": {
+      "chunks": 1,
+      "input_tokens": 329,
+      "max_chunk_tokens": 329,
+      "omitted_tokens": 0,
+      "used_tokens": 329
+    },
+    "cb8fa49158fcd437118c580b4a5bc36c3b3f17cc8d8b32972e3511e9ca291af2": {
+      "chunks": 1,
+      "input_tokens": 86,
+      "max_chunk_tokens": 86,
+      "omitted_tokens": 0,
+      "used_tokens": 86
+    },
+    "cbe894c4a2b306234e5ebc97f5f2a99f3957622357799c0ac6570630fd4d5243": {
+      "chunks": 1,
+      "input_tokens": 424,
+      "max_chunk_tokens": 424,
+      "omitted_tokens": 0,
+      "used_tokens": 424
+    },
+    "ccc484ff0a8e08772069d2440af7267347100cbf91ffe8be00c17cf1938bd839": {
+      "chunks": 1,
+      "input_tokens": 20,
+      "max_chunk_tokens": 20,
+      "omitted_tokens": 0,
+      "used_tokens": 20
+    },
+    "cdf6c0a86b9c9b4a9567d46e070b100ae876c9554c729c6865a98774a67ff4bb": {
+      "chunks": 1,
+      "input_tokens": 421,
+      "max_chunk_tokens": 421,
+      "omitted_tokens": 0,
+      "used_tokens": 421
+    },
+    "d0ef7f8b1b9ab1c00fc722331d8c012e8a35567d3c37a9dbb3b76cccc45cdcda": {
+      "chunks": 1,
+      "input_tokens": 219,
+      "max_chunk_tokens": 219,
+      "omitted_tokens": 0,
+      "used_tokens": 219
+    },
+    "d1270a5df4a1582055d9f8c76898426fd52daebc9161a844bab535ffc5d2555d": {
+      "chunks": 3,
+      "input_tokens": 1394,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1394
+    },
+    "d2f4ea0393a91ff45ba84ead7271622288259629f173ff1b0d98bff118310fb6": {
+      "chunks": 2,
+      "input_tokens": 715,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 715
+    },
+    "d4c26512e2b0098ca552a51c4d581008153cf8482de5c3a21dc4d699a6eb29bc": {
+      "chunks": 1,
+      "input_tokens": 105,
+      "max_chunk_tokens": 105,
+      "omitted_tokens": 0,
+      "used_tokens": 105
+    },
+    "d56dd3c3a4b512a988cd09758c5ff054cb9c37227c4d0d969b84291eb0b8347d": {
+      "chunks": 4,
+      "input_tokens": 1651,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1651
+    },
+    "d6007b2f609c89d35d6d05568b55467e875c3b8a9132cfdd49432d3f34af09b2": {
+      "chunks": 2,
+      "input_tokens": 994,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 994
+    },
+    "d72b4d91a506aa844e4654f40f7070b0354e2819ddc54784683e9d5ede44a93d": {
+      "chunks": 1,
+      "input_tokens": 471,
+      "max_chunk_tokens": 471,
+      "omitted_tokens": 0,
+      "used_tokens": 471
+    },
+    "d84667efe61dd8d394e1aa254b9aca02c771de59c1e452d49da8081b93986ea2": {
+      "chunks": 1,
+      "input_tokens": 94,
+      "max_chunk_tokens": 94,
+      "omitted_tokens": 0,
+      "used_tokens": 94
+    },
+    "d9d781c10bc9284a3ff97a5842eef051bff15494934bcf914316b372644fe254": {
+      "chunks": 1,
+      "input_tokens": 80,
+      "max_chunk_tokens": 80,
+      "omitted_tokens": 0,
+      "used_tokens": 80
+    },
+    "da36f29a33898b60be99b413cd47520b3586f99482737b36d4197ba309305c59": {
+      "chunks": 1,
+      "input_tokens": 209,
+      "max_chunk_tokens": 209,
+      "omitted_tokens": 0,
+      "used_tokens": 209
+    },
+    "da4b06e4414713e87056f73b27ed9ca72dcf5203e7da0d128906c35193ab2b52": {
+      "chunks": 1,
+      "input_tokens": 379,
+      "max_chunk_tokens": 379,
+      "omitted_tokens": 0,
+      "used_tokens": 379
+    },
+    "da9bb962895e2f9ae8913417febd731fc465cd2cd949a0e0790b74f0ff241c56": {
+      "chunks": 1,
+      "input_tokens": 283,
+      "max_chunk_tokens": 283,
+      "omitted_tokens": 0,
+      "used_tokens": 283
+    },
+    "dad5840cc7cf30f97185619a19ca8b54d703a4e52651e545d44e41c46e3edf19": {
+      "chunks": 2,
+      "input_tokens": 899,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 899
+    },
+    "dc47c8f86d97f268bb1902b8c5dbd75e3166b76691492b6c0377c9f837bbb141": {
+      "chunks": 1,
+      "input_tokens": 147,
+      "max_chunk_tokens": 147,
+      "omitted_tokens": 0,
+      "used_tokens": 147
+    },
+    "dc49d2533ca1e0da9a699b8c2f362dad5f76b6e0c4157058f4d31d88c9852236": {
+      "chunks": 2,
+      "input_tokens": 511,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 511
+    },
+    "dd9b22b9b3f9223aa8c50fd0219c421e169bc68076b942f6921470a8fb2a4a74": {
+      "chunks": 1,
+      "input_tokens": 453,
+      "max_chunk_tokens": 453,
+      "omitted_tokens": 0,
+      "used_tokens": 453
+    },
+    "de03c566c4b227c8d0d0026b5511447e1dcaa7e119106ea182164c234f4435c7": {
+      "chunks": 1,
+      "input_tokens": 29,
+      "max_chunk_tokens": 29,
+      "omitted_tokens": 0,
+      "used_tokens": 29
+    },
+    "de63d91795fa7a63c1c8764553b5d5a7857abb32ff34ea84764b72e796e8fae5": {
+      "chunks": 1,
+      "input_tokens": 411,
+      "max_chunk_tokens": 411,
+      "omitted_tokens": 0,
+      "used_tokens": 411
+    },
+    "e2507d5a1ba215eca9596d062585734c376640b975708a2c7cef25711e9d9db0": {
+      "chunks": 1,
+      "input_tokens": 122,
+      "max_chunk_tokens": 122,
+      "omitted_tokens": 0,
+      "used_tokens": 122
+    },
+    "e2ce295a006358ac5f6372b3baf9e3842548a0227e9f5ecc76524d0537a66884": {
+      "chunks": 3,
+      "input_tokens": 1080,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1080
+    },
+    "e2ef050abe619981fd851f2a3e73ef9575d06c43ada5fcdb096784230f877a6b": {
+      "chunks": 1,
+      "input_tokens": 170,
+      "max_chunk_tokens": 170,
+      "omitted_tokens": 0,
+      "used_tokens": 170
+    },
+    "e303b1be1eb59237aec2cf10363813e6be9854aee30c42a8db81b7c198886c2d": {
+      "chunks": 1,
+      "input_tokens": 442,
+      "max_chunk_tokens": 442,
+      "omitted_tokens": 0,
+      "used_tokens": 442
+    },
+    "e3a1d849d88fe953538d48204d3a7e7100fc7038f6df6901e415f753855a6112": {
+      "chunks": 1,
+      "input_tokens": 82,
+      "max_chunk_tokens": 82,
+      "omitted_tokens": 0,
+      "used_tokens": 82
+    },
+    "e3adce12479bc5d317dc63894b41ac7867e1ab10f9cb1a4396b88e6d3f19238f": {
+      "chunks": 2,
+      "input_tokens": 712,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 712
+    },
+    "e4e2c89461e934cb86eedbfb40e71328f3f5c2444cb06d85c6f94b96d7e9ae9f": {
+      "chunks": 3,
+      "input_tokens": 1039,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1039
+    },
+    "e501ccc9e371114aa8e891bd4f60e478408a26f0c3eb4d07542ad950a699116c": {
+      "chunks": 2,
+      "input_tokens": 711,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 711
+    },
+    "e56419b9505a46c39355f67e898665146d54f65a17a965f82ddbfc2a691f58da": {
+      "chunks": 2,
+      "input_tokens": 585,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 585
+    },
+    "e69a164cb0226c9871ff708816b9ca20bc7b37d3822753c15a9cea52c9d522cb": {
+      "chunks": 1,
+      "input_tokens": 203,
+      "max_chunk_tokens": 203,
+      "omitted_tokens": 0,
+      "used_tokens": 203
+    },
+    "e8cdfd15f3c6892ca9d027dfb40873aa02aed6bbd4700bc8697747b5ab72e0b2": {
+      "chunks": 2,
+      "input_tokens": 754,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 754
+    },
+    "ea644f03c4a2a21e35b3dda4328c6688e4bf1a88207003e1c51aea09afd2603a": {
+      "chunks": 1,
+      "input_tokens": 275,
+      "max_chunk_tokens": 275,
+      "omitted_tokens": 0,
+      "used_tokens": 275
+    },
+    "eaa65f83173704c146c5933bebca4f2bc269aa433e0a2c6ad520af6d15194aaf": {
+      "chunks": 1,
+      "input_tokens": 180,
+      "max_chunk_tokens": 180,
+      "omitted_tokens": 0,
+      "used_tokens": 180
+    },
+    "eab0890418c59c4c8a7f092955dbfacc2ddeed590e768eafdda414be230e0168": {
+      "chunks": 3,
+      "input_tokens": 1022,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1022
+    },
+    "eadd8cd5aecea65f3d17e13122a6145679702150a023fef14533e72a20c35832": {
+      "chunks": 1,
+      "input_tokens": 204,
+      "max_chunk_tokens": 204,
+      "omitted_tokens": 0,
+      "used_tokens": 204
+    },
+    "eb6fa67bc7f5451a612b7d4d5d1bcddb6f2eb2546d08da5f04856ec62530a2f0": {
+      "chunks": 2,
+      "input_tokens": 754,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 754
+    },
+    "eb9b86f8cebd7be3ce28e6470ae7aa12ce811edb946a9401e880e57016d85708": {
+      "chunks": 2,
+      "input_tokens": 801,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 801
+    },
+    "eba4b17d1225d036da20ef96d87cf50ba7e4a87e707b8cce79bcec01f5a28b6f": {
+      "chunks": 1,
+      "input_tokens": 94,
+      "max_chunk_tokens": 94,
+      "omitted_tokens": 0,
+      "used_tokens": 94
+    },
+    "ebdaa96b99d29cf79349c3541c130222aa4cc57171bf90b0bb964f190584f4f1": {
+      "chunks": 1,
+      "input_tokens": 130,
+      "max_chunk_tokens": 130,
+      "omitted_tokens": 0,
+      "used_tokens": 130
+    },
+    "eca44615057501cd78aee30826f66b6bd7485b1176d8e1a8f4049daa9a74a13a": {
+      "chunks": 1,
+      "input_tokens": 72,
+      "max_chunk_tokens": 72,
+      "omitted_tokens": 0,
+      "used_tokens": 72
+    },
+    "ecaad984ae3944b985507c1ea99bda9d83207053f25017f8fa155ad1e1ebdcc3": {
+      "chunks": 1,
+      "input_tokens": 67,
+      "max_chunk_tokens": 67,
+      "omitted_tokens": 0,
+      "used_tokens": 67
+    },
+    "ed067397669e7438b374b44215268ea6a2e81b87f63d89c388dea6f1aa1ac131": {
+      "chunks": 1,
+      "input_tokens": 177,
+      "max_chunk_tokens": 177,
+      "omitted_tokens": 0,
+      "used_tokens": 177
+    },
+    "ed8e2eea7b1145025c3f81283c368853142c76702bd1a7d8a03ae8618fcdbc54": {
+      "chunks": 1,
+      "input_tokens": 18,
+      "max_chunk_tokens": 18,
+      "omitted_tokens": 0,
+      "used_tokens": 18
+    },
+    "edcc87a3c4c834cb8cf112a75c7fa137c618bdead4d0f6233eb2056b25b8861b": {
+      "chunks": 1,
+      "input_tokens": 124,
+      "max_chunk_tokens": 124,
+      "omitted_tokens": 0,
+      "used_tokens": 124
+    },
+    "eec0d12b7623c7c1326a17dd85254b8bcc48c5d0fd36a84d418260a55ae945ee": {
+      "chunks": 1,
+      "input_tokens": 218,
+      "max_chunk_tokens": 218,
+      "omitted_tokens": 0,
+      "used_tokens": 218
+    },
+    "f183a2762fbcdd9f5ec173bdde0857419d2b62c115c0afa46487a02de48c589c": {
+      "chunks": 1,
+      "input_tokens": 225,
+      "max_chunk_tokens": 225,
+      "omitted_tokens": 0,
+      "used_tokens": 225
+    },
+    "f22291083226612ce9b0e92ff65a15cfe7716f703378250dd446b041082f4483": {
+      "chunks": 1,
+      "input_tokens": 250,
+      "max_chunk_tokens": 250,
+      "omitted_tokens": 0,
+      "used_tokens": 250
+    },
+    "f27e1539e780d16a22a3635a23b3960353604939294d7749ba59866af1845ae4": {
+      "chunks": 1,
+      "input_tokens": 364,
+      "max_chunk_tokens": 364,
+      "omitted_tokens": 0,
+      "used_tokens": 364
+    },
+    "f345a38756da9e864661a963c034afb1b886e081469ef679bc19625ec95dc59b": {
+      "chunks": 1,
+      "input_tokens": 231,
+      "max_chunk_tokens": 231,
+      "omitted_tokens": 0,
+      "used_tokens": 231
+    },
+    "f3527cdf11e447038904f462604e71d861df02a477f042f2da2eb1d1f907fe91": {
+      "chunks": 1,
+      "input_tokens": 223,
+      "max_chunk_tokens": 223,
+      "omitted_tokens": 0,
+      "used_tokens": 223
+    },
+    "f35def0bdb542705f63c052b68c0b514d8f2c7ffc2ffc39c2e69915001f3d510": {
+      "chunks": 3,
+      "input_tokens": 1385,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1385
+    },
+    "f3eafd48728681415da98a8f59bcc2b558271ee9bcbcfa9c6ad6f91bf0b36172": {
+      "chunks": 1,
+      "input_tokens": 222,
+      "max_chunk_tokens": 222,
+      "omitted_tokens": 0,
+      "used_tokens": 222
+    },
+    "f4282d40ef08456641ada2fe0cf08e47b2c678278b305907f54256964145c4d6": {
+      "chunks": 3,
+      "input_tokens": 1389,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1389
+    },
+    "f4b58e994b8d9be610914ff95d63499cf5477340c5662c00b641844ac0e9a8ee": {
+      "chunks": 1,
+      "input_tokens": 75,
+      "max_chunk_tokens": 75,
+      "omitted_tokens": 0,
+      "used_tokens": 75
+    },
+    "f4e0ff7bb711ab383b608a0f4b910b8380ff66361d5cfa18d0719a20ea2cb622": {
+      "chunks": 2,
+      "input_tokens": 799,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 799
+    },
+    "f5dd106c32cc31fcb75adefdf9d67a8059ff7b7bf9ec5e5f147f97250b97856a": {
+      "chunks": 4,
+      "input_tokens": 1646,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1646
+    },
+    "f65ec0ba96561d826bf10cc560e22618627067dad1e78b36f7733b97f352eb33": {
+      "chunks": 1,
+      "input_tokens": 311,
+      "max_chunk_tokens": 311,
+      "omitted_tokens": 0,
+      "used_tokens": 311
+    },
+    "f663605a6f22dc2f63e05090149063ad471a5a27574ac1a03b9d2c057a304933": {
+      "chunks": 1,
+      "input_tokens": 174,
+      "max_chunk_tokens": 174,
+      "omitted_tokens": 0,
+      "used_tokens": 174
+    },
+    "f697cbae5b4e7d85a6d1b550349da900e5e3067b8fde885a1ffed9bd64100cbd": {
+      "chunks": 2,
+      "input_tokens": 922,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 922
+    },
+    "f6a31b79af6c94b689c80c7b91744a11f1cbcd24dff5679aef52bcd475b6fa63": {
+      "chunks": 1,
+      "input_tokens": 446,
+      "max_chunk_tokens": 446,
+      "omitted_tokens": 0,
+      "used_tokens": 446
+    },
+    "f799f39a5b3197950120d98f8563beb0228c113769d484aacf1cb7524c3b4248": {
+      "chunks": 1,
+      "input_tokens": 335,
+      "max_chunk_tokens": 335,
+      "omitted_tokens": 0,
+      "used_tokens": 335
+    },
+    "f97c5bb83ec67a948125b0bd96ae50e80a969b97b87c65428affad5870bc0d61": {
+      "chunks": 1,
+      "input_tokens": 368,
+      "max_chunk_tokens": 368,
+      "omitted_tokens": 0,
+      "used_tokens": 368
+    },
+    "fc97919c7dce923d33a55aa6858afd63c4603c1f602f58bc4fcae653070825e4": {
+      "chunks": 1,
+      "input_tokens": 213,
+      "max_chunk_tokens": 213,
+      "omitted_tokens": 0,
+      "used_tokens": 213
+    },
+    "fcb76b53008c8f7d4bf770eddc4a649a85b91851bd2f08126eb36b0c28977876": {
+      "chunks": 1,
+      "input_tokens": 182,
+      "max_chunk_tokens": 182,
+      "omitted_tokens": 0,
+      "used_tokens": 182
+    },
+    "fd7fdfdeb24df764279e5ca9c4f973015d404ade8ce03d977d001322e5464d49": {
+      "chunks": 3,
+      "input_tokens": 1078,
+      "max_chunk_tokens": 510,
+      "omitted_tokens": 0,
+      "used_tokens": 1078
+    },
+    "ff7179ced6efec22429ade6f23da97c91236eb56c6140d953702f838b64f1881": {
+      "chunks": 1,
+      "input_tokens": 19,
+      "max_chunk_tokens": 19,
+      "omitted_tokens": 0,
+      "used_tokens": 19
+    }
+  },
+  "truncated_unique_texts": 0,
+  "unique_texts": 358,
+  "unique_texts_sha256": "5df7c67aa82fa3d9288b4ce2bbf5052e6e29821fb3c5baea132c9fc38494feb1",
+  "vector_array_float32_sha256": "aed753514437dff301042acc43c513c1ed0c88fe2c1b7e3c13e8bb87edb6f2c5",
+  "vector_hash_keys_sha256": "a9eb925c3c97084c120ed371a6499c26dee308f59713be0bc9f8efc96f29adcc",
+  "vectors_sha256": "8d3b0c4b2db4ccbf09100d05ea078107f92b2627e4966a6f06b74948294ccf97"
+}

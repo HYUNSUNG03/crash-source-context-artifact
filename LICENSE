@@ -1,0 +1,7 @@
+# All Rights Reserved
+
+Copyright (c) 2026 the authors.
+
+The original research code and derived experimental results in this repository are publicly available for inspection and reproducibility review only. Except for the third-party components identified in `NOTICE`, no permission is granted to use, copy, modify, distribute, sublicense, or create derivative works from those materials.
+
+Third-party components remain available under their own license terms. In particular, the bundled GPTrace evaluation code is licensed under Apache-2.0; see `third_party/GPTrace-LICENSE`.

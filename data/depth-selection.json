@@ -1,0 +1,109 @@
+{
+  "schema_version": "d-selection-summary-v2",
+  "selected_max_causal_depth": 4,
+  "passing_depths": [
+    4,
+    8
+  ],
+  "selection_rule": "pass every frozen semantic and negative gate, then choose the smallest depth",
+  "depth_results": {
+    "1": {
+      "selection_cases_passed": 4,
+      "selection_cases_total": 6,
+      "all_gates_passed": false,
+      "context_sites": 5
+    },
+    "2": {
+      "selection_cases_passed": 4,
+      "selection_cases_total": 6,
+      "all_gates_passed": false,
+      "context_sites": 15
+    },
+    "3": {
+      "selection_cases_passed": 5,
+      "selection_cases_total": 6,
+      "all_gates_passed": false,
+      "context_sites": 31
+    },
+    "4": {
+      "selection_cases_passed": 6,
+      "selection_cases_total": 6,
+      "all_gates_passed": true,
+      "context_sites": 40
+    },
+    "8": {
+      "selection_cases_passed": 6,
+      "selection_cases_total": 6,
+      "all_gates_passed": true,
+      "context_sites": 49
+    }
+  },
+  "panels": {
+    "fresh_holdout": {
+      "cases": 3,
+      "frozen_hashes_match": {
+        "oracle": true,
+        "requests": true
+      },
+      "frozen_corpus_hashes_match": {
+        "002bd576a17e927d": {
+          "asan": true,
+          "trace": true,
+          "source": true
+        },
+        "002b34fdfaa28b63": {
+          "asan": true,
+          "trace": true,
+          "source": true
+        },
+        "000028a897b9e09d": {
+          "asan": true,
+          "trace": true,
+          "source": true
+        }
+      },
+      "minimum_passing_depth": 3
+    },
+    "post_fix_regression": {
+      "cases": 3,
+      "frozen_hashes_match": {
+        "oracle": true,
+        "original_requests": true
+      },
+      "frozen_corpus_hashes_match": {
+        "00014acd5c7754c1": {
+          "asan": true,
+          "trace": true,
+          "source": true
+        },
+        "0268845f1edccdea": {
+          "asan": true,
+          "trace": true,
+          "source": true
+        },
+        "001abce137c1ce82": {
+          "asan": true,
+          "trace": true,
+          "source": true
+        }
+      },
+      "exact_request_sha256": "4d3c964d4b781fe16e2a71e32d484a210a5569922ecd4b7b708e554bf46bf350",
+      "minimum_passing_depth": 4,
+      "qualification": "post-fix regression; exact callsite requests were derived from the retained raw traces"
+    }
+  },
+  "operational_semantics": {
+    "depth": "call-argument hops plus reaching-definition hops",
+    "endpoint_handling": "retain candidates to D=4; the current evaluator verifies that a reviewed semantic endpoint is present but the extractor does not stop automatically",
+    "stack_scope": "only exact function and source-line frames retained in the crash stack",
+    "temporal_scope": "definitions after the fault or after the retained caller callsite are rejected",
+    "source_gate": "abstain when the CPG access is hidden by a macro and is not visible in the retained source line",
+    "uaf": "static operand/provenance candidates are combined with raw ASan allocation/free facts, but those runtime facts do not select D"
+  },
+  "validation_panel": {
+    "usable_cases": 5,
+    "result_at_d4": "all five resolved source-level expressions; no post-fault local definition was selected",
+    "selection_role": "regression only; old assertion oracle was not used to select D"
+  },
+  "claim_limit": "This fixes the maximum depth for the next pilot. Six selection cases and one post-fix regression panel are too weak to claim a universal optimum or start the full experiment before endpoint selection is implemented."
+}

@@ -1,0 +1,1674 @@
+[
+  {
+    "report_id": "000232e7454aa3db",
+    "target": "freetype__char2svg",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/cff/cf2hints.c",
+      822
+    ]
+  },
+  {
+    "report_id": "00033cae0331a4a4",
+    "target": "soxmp3__sox",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/mp3-util.h",
+      277
+    ]
+  },
+  {
+    "report_id": "000354da22ad86ae",
+    "target": "soxmp3__sox",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/mp3-util.h",
+      277
+    ]
+  },
+  {
+    "report_id": "00046694c5f0ffa3",
+    "target": "soxmp3__sox",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/mp3-util.h",
+      277
+    ]
+  },
+  {
+    "report_id": "0004bb4e5544fe11",
+    "target": "soxmp3__sox",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/mp3-util.h",
+      277
+    ]
+  },
+  {
+    "report_id": "00053bfd374824c8",
+    "target": "soxmp3__sox",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/mp3-util.h",
+      277
+    ]
+  },
+  {
+    "report_id": "0006746fd129815b",
+    "target": "soxmp3__sox",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/mp3-util.h",
+      277
+    ]
+  },
+  {
+    "report_id": "000722161e1e3237",
+    "target": "soxmp3__sox",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/mp3-util.h",
+      277
+    ]
+  },
+  {
+    "report_id": "0009ce4455921a8b",
+    "target": "freetype__char2svg",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttcmap.c",
+      862
+    ]
+  },
+  {
+    "report_id": "000a9d9b4a56af90",
+    "target": "soxmp3__sox",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/mp3-util.h",
+      277
+    ]
+  },
+  {
+    "report_id": "000ac6721357d3ef",
+    "target": "soxmp3__sox",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/mp3-util.h",
+      277
+    ]
+  },
+  {
+    "report_id": "000cf633123dfabe",
+    "target": "soxmp3__sox",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/mp3-util.h",
+      277
+    ]
+  },
+  {
+    "report_id": "000db03530322b93",
+    "target": "freetype__char2svg",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/type1/t1parse.c",
+      345
+    ]
+  },
+  {
+    "report_id": "000f6afa43648022",
+    "target": "soxmp3__sox",
+    "label": "poc_G_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xa.c",
+      219
+    ]
+  },
+  {
+    "report_id": "0014d9c24ac1537d",
+    "target": "freetype__char2svg",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/cff/cf2hints.c",
+      822
+    ]
+  },
+  {
+    "report_id": "001583f95418cb51",
+    "target": "freetype__char2svg",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/type1/t1parse.c",
+      345
+    ]
+  },
+  {
+    "report_id": "00169b641e4ad761",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH209_raw",
+    "endpoint_status": "extractor_abstain_method_resolution_failed",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/Annot.h",
+      134
+    ]
+  },
+  {
+    "report_id": "001fce816c076da7",
+    "target": "freetype__char2svg",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/cff/cf2hints.c",
+      822
+    ]
+  },
+  {
+    "report_id": "001fd17915d1bb13",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH209_raw",
+    "endpoint_status": "extractor_abstain_method_resolution_failed",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/Annot.h",
+      134
+    ]
+  },
+  {
+    "report_id": "001fe4ef47424aac",
+    "target": "freetype__char2svg",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/type1/t1parse.c",
+      345
+    ]
+  },
+  {
+    "report_id": "00213ff52c268d35",
+    "target": "freetype__char2svg",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttcmap.c",
+      862
+    ]
+  },
+  {
+    "report_id": "0023007b99190f81",
+    "target": "soxmp3__sox",
+    "label": "poc_G_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xa.c",
+      219
+    ]
+  },
+  {
+    "report_id": "002308c087b127cb",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH210_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/JBIG2Stream.cc",
+      3616
+    ]
+  },
+  {
+    "report_id": "00242251f712d716",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH209_raw",
+    "endpoint_status": "extractor_abstain_method_resolution_failed",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/Annot.h",
+      134
+    ]
+  },
+  {
+    "report_id": "002d1d1e6370dc36",
+    "target": "freetype__char2svg",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/type1/t1parse.c",
+      345
+    ]
+  },
+  {
+    "report_id": "002db1793d348cc4",
+    "target": "freetype__char2svg",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttcmap.c",
+      862
+    ]
+  },
+  {
+    "report_id": "0036d20931346362",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH201_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/XRef.cc",
+      1680
+    ]
+  },
+  {
+    "report_id": "003dbe94531e3e5d",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH201_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/XRef.cc",
+      1680
+    ]
+  },
+  {
+    "report_id": "003f678954557099",
+    "target": "freetype__char2svg",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/cff/cf2hints.c",
+      822
+    ]
+  },
+  {
+    "report_id": "0040ea90edf87ee2",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH201_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/XRef.cc",
+      1680
+    ]
+  },
+  {
+    "report_id": "00419a6301a4ec30",
+    "target": "freetype__char2svg",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttcmap.c",
+      862
+    ]
+  },
+  {
+    "report_id": "0041bbc3d1df6321",
+    "target": "freetype__char2svg",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttcmap.c",
+      862
+    ]
+  },
+  {
+    "report_id": "0041ca786d8f0b97",
+    "target": "soxmp3__sox",
+    "label": "poc_G_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xa.c",
+      219
+    ]
+  },
+  {
+    "report_id": "00449aae67b644b8",
+    "target": "freetype__char2svg",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttcmap.c",
+      862
+    ]
+  },
+  {
+    "report_id": "004a12e5c8b61474",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH210_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/JBIG2Stream.cc",
+      878
+    ]
+  },
+  {
+    "report_id": "004b95f60ef3b753",
+    "target": "freetype__char2svg",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/type1/t1parse.c",
+      345
+    ]
+  },
+  {
+    "report_id": "00519854dd254b84",
+    "target": "soxmp3__sox",
+    "label": "poc_G_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xa.c",
+      219
+    ]
+  },
+  {
+    "report_id": "005961b01dbf6fd0",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH209_raw",
+    "endpoint_status": "extractor_abstain_method_resolution_failed",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/Annot.h",
+      134
+    ]
+  },
+  {
+    "report_id": "005a1f827cec9214",
+    "target": "freetype__char2svg",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttcmap.c",
+      862
+    ]
+  },
+  {
+    "report_id": "005e054c869e3bb7",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH201_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/XRef.cc",
+      1680
+    ]
+  },
+  {
+    "report_id": "005e63ccc43cab73",
+    "target": "soxmp3__sox",
+    "label": "poc_G_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xa.c",
+      219
+    ]
+  },
+  {
+    "report_id": "0061cf9fd6c2fc5a",
+    "target": "soxmp3__sox",
+    "label": "poc_G_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xa.c",
+      219
+    ]
+  },
+  {
+    "report_id": "006aed88d3ca400a",
+    "target": "freetype__char2svg",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/type1/t1parse.c",
+      345
+    ]
+  },
+  {
+    "report_id": "006b23f353c912b8",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH201_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/XRef.cc",
+      1680
+    ]
+  },
+  {
+    "report_id": "006b4390e84b9f61",
+    "target": "freetype__char2svg",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/cff/cf2hints.c",
+      822
+    ]
+  },
+  {
+    "report_id": "00707b48a3cb6c6b",
+    "target": "poppler__pdfimages",
+    "label": "poc_AAH045_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/GfxState.cc",
+      5814
+    ]
+  },
+  {
+    "report_id": "00716af702164711",
+    "target": "soxmp3__sox",
+    "label": "poc_G_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xa.c",
+      219
+    ]
+  },
+  {
+    "report_id": "0071bf050f20c660",
+    "target": "freetype__char2svg",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/cff/cf2hints.c",
+      822
+    ]
+  },
+  {
+    "report_id": "00760b2ed97ec09f",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH201_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/XRef.cc",
+      1680
+    ]
+  },
+  {
+    "report_id": "00778b3b8bcf35dc",
+    "target": "soxmp3__sox",
+    "label": "poc_G_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xa.c",
+      219
+    ]
+  },
+  {
+    "report_id": "007a2cd27d101332",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH209_raw",
+    "endpoint_status": "extractor_abstain_method_resolution_failed",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/Annot.h",
+      134
+    ]
+  },
+  {
+    "report_id": "007dcd6765cdc893",
+    "target": "soxmp3__sox",
+    "label": "poc_G_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xa.c",
+      219
+    ]
+  },
+  {
+    "report_id": "0083031f3f88502f",
+    "target": "freetype__char2svg",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/cff/cf2hints.c",
+      822
+    ]
+  },
+  {
+    "report_id": "00853e6ad53a3775",
+    "target": "freetype__char2svg",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/cff/cf2hints.c",
+      822
+    ]
+  },
+  {
+    "report_id": "00861167ccb4d23a",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH201_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/XRef.cc",
+      1680
+    ]
+  },
+  {
+    "report_id": "0090e638fb859d9f",
+    "target": "soxmp3__sox",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/remix.c",
+      237
+    ]
+  },
+  {
+    "report_id": "00910b4e2d6fc737",
+    "target": "freetype__char2svg",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/type1/t1parse.c",
+      345
+    ]
+  },
+  {
+    "report_id": "009248e433f75981",
+    "target": "soxmp3__sox",
+    "label": "poc_G_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xa.c",
+      219
+    ]
+  },
+  {
+    "report_id": "009c630dec58fc60",
+    "target": "freetype__char2svg",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/type1/t1parse.c",
+      345
+    ]
+  },
+  {
+    "report_id": "00a4970f1614db26",
+    "target": "freetype__char2svg",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/cff/cf2hints.c",
+      822
+    ]
+  },
+  {
+    "report_id": "00a5afbda8ddc4e2",
+    "target": "freetype__char2svg",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttcmap.c",
+      862
+    ]
+  },
+  {
+    "report_id": "00a69e4550d18562",
+    "target": "freetype__char2svg",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttcmap.c",
+      2831
+    ]
+  },
+  {
+    "report_id": "00a6f000a06a6745",
+    "target": "freetype__char2svg",
+    "label": "poc_A_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttcmap.c",
+      862
+    ]
+  },
+  {
+    "report_id": "00b3e2dcf2c8eed1",
+    "target": "freetype__char2svg",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/type1/t1parse.c",
+      345
+    ]
+  },
+  {
+    "report_id": "00b3f8f0c9d645e3",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH209_raw",
+    "endpoint_status": "extractor_abstain_method_resolution_failed",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/Annot.h",
+      134
+    ]
+  },
+  {
+    "report_id": "00b5f27b0749c09b",
+    "target": "freetype__char2svg",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/type1/t1parse.c",
+      345
+    ]
+  },
+  {
+    "report_id": "00b6025c603deb3c",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH209_raw",
+    "endpoint_status": "extractor_abstain_method_resolution_failed",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/Annot.h",
+      134
+    ]
+  },
+  {
+    "report_id": "00bda796ab9e164f",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH209_raw",
+    "endpoint_status": "extractor_abstain_method_resolution_failed",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/Annot.h",
+      134
+    ]
+  },
+  {
+    "report_id": "00c33b9acdb56222",
+    "target": "freetype__char2svg",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/cff/cf2hints.c",
+      822
+    ]
+  },
+  {
+    "report_id": "00c526ea923db932",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH210_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/JBIG2Stream.cc",
+      3616
+    ]
+  },
+  {
+    "report_id": "00c931cae916e969",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH209_raw",
+    "endpoint_status": "extractor_abstain_method_resolution_failed",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/Annot.h",
+      134
+    ]
+  },
+  {
+    "report_id": "00ccbca5fc635c85",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH201_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/XRef.cc",
+      1680
+    ]
+  },
+  {
+    "report_id": "00f990444484329f",
+    "target": "freetype__char2svg",
+    "label": "poc_C_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttkern.c",
+      141
+    ]
+  },
+  {
+    "report_id": "00f9e4e8e9536d1b",
+    "target": "freetype__char2svg",
+    "label": "poc_C_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttkern.c",
+      141
+    ]
+  },
+  {
+    "report_id": "00fd7e1e47f0a444",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH210_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/JBIG2Stream.cc",
+      3616
+    ]
+  },
+  {
+    "report_id": "011a62a9332b2e78",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH201_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/XRef.cc",
+      1680
+    ]
+  },
+  {
+    "report_id": "011d402270fe0449",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH209_raw",
+    "endpoint_status": "extractor_abstain_method_resolution_failed",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/Annot.h",
+      134
+    ]
+  },
+  {
+    "report_id": "011e540c2b6dcda7",
+    "target": "freetype__char2svg",
+    "label": "poc_C_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttkern.c",
+      141
+    ]
+  },
+  {
+    "report_id": "01441fb7d614d14d",
+    "target": "freetype__char2svg",
+    "label": "poc_C_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttkern.c",
+      141
+    ]
+  },
+  {
+    "report_id": "0144ffe96270e9d6",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH201_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/XRef.cc",
+      1680
+    ]
+  },
+  {
+    "report_id": "015594d7c9dd3c52",
+    "target": "freetype__char2svg",
+    "label": "poc_C_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttkern.c",
+      141
+    ]
+  },
+  {
+    "report_id": "0168207df4f66eed",
+    "target": "soxmp3__sox",
+    "label": "poc_D_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/fft4g.c",
+      721
+    ]
+  },
+  {
+    "report_id": "01855da1014f40d2",
+    "target": "freetype__char2svg",
+    "label": "poc_F_raw",
+    "endpoint_status": "uaf_static_only_dynamic_evidence_unavailable",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/truetype/ttgload.c",
+      604
+    ]
+  },
+  {
+    "report_id": "0192a43115df1e49",
+    "target": "soxmp3__sox",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/remix.c",
+      237
+    ]
+  },
+  {
+    "report_id": "01982a95f7103ac4",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH210_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/JBIG2Stream.cc",
+      878
+    ]
+  },
+  {
+    "report_id": "019f3e8c5204077c",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH210_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/JBIG2Stream.cc",
+      878
+    ]
+  },
+  {
+    "report_id": "01a6e2a3c4fae627",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH210_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/JBIG2Stream.cc",
+      3616
+    ]
+  },
+  {
+    "report_id": "01a8a44b2aef22e3",
+    "target": "freetype__char2svg",
+    "label": "poc_C_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttkern.c",
+      141
+    ]
+  },
+  {
+    "report_id": "01ab66f8fbf5e35a",
+    "target": "poppler__pdfimages",
+    "label": "poc_AAH045_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/GfxState.cc",
+      5814
+    ]
+  },
+  {
+    "report_id": "01accb099c1a4bd3",
+    "target": "soxmp3__sox",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/remix.c",
+      237
+    ]
+  },
+  {
+    "report_id": "01b6318ca998de14",
+    "target": "soxmp3__sox",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/remix.c",
+      237
+    ]
+  },
+  {
+    "report_id": "01c620de5b06f064",
+    "target": "poppler__pdfimages",
+    "label": "poc_AAH045_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/GfxState.cc",
+      5814
+    ]
+  },
+  {
+    "report_id": "01d919a33280b43e",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH210_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/JBIG2Stream.cc",
+      3616
+    ]
+  },
+  {
+    "report_id": "01e6345b6bda0aae",
+    "target": "freetype__char2svg",
+    "label": "poc_C_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttkern.c",
+      141
+    ]
+  },
+  {
+    "report_id": "01ea0b52e563fd7d",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH210_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/JBIG2Stream.cc",
+      824
+    ]
+  },
+  {
+    "report_id": "01ed2022b627e8c9",
+    "target": "poppler__pdfimages",
+    "label": "poc_JCH210_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/JBIG2Stream.cc",
+      2180
+    ]
+  },
+  {
+    "report_id": "01fa180ee207b21d",
+    "target": "poppler__pdfimages",
+    "label": "poc_AAH045_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/GfxState.cc",
+      5814
+    ]
+  },
+  {
+    "report_id": "01ff7c3e49913871",
+    "target": "poppler__pdfimages",
+    "label": "poc_AAH045_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/GfxState.cc",
+      5814
+    ]
+  },
+  {
+    "report_id": "0203b94298934f4d",
+    "target": "freetype__char2svg",
+    "label": "poc_C_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttkern.c",
+      141
+    ]
+  },
+  {
+    "report_id": "021edb241b615c01",
+    "target": "freetype__char2svg",
+    "label": "poc_F_raw",
+    "endpoint_status": "uaf_static_only_dynamic_evidence_unavailable",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/truetype/ttgload.c",
+      604
+    ]
+  },
+  {
+    "report_id": "0220c524ecdd9953",
+    "target": "poppler__pdfimages",
+    "label": "poc_AAH045_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/GfxState.cc",
+      5814
+    ]
+  },
+  {
+    "report_id": "029e621d08d2a2fe",
+    "target": "freetype__char2svg",
+    "label": "poc_C_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttkern.c",
+      141
+    ]
+  },
+  {
+    "report_id": "02b7fb05ae374384",
+    "target": "freetype__char2svg",
+    "label": "poc_C_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/sfnt/ttkern.c",
+      141
+    ]
+  },
+  {
+    "report_id": "02cafea9b9067abe",
+    "target": "poppler__pdfimages",
+    "label": "poc_AAH045_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/GfxState.cc",
+      5814
+    ]
+  },
+  {
+    "report_id": "02ce22eeba8bd264",
+    "target": "soxmp3__sox",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/remix.c",
+      237
+    ]
+  },
+  {
+    "report_id": "02e43500d4ed36e6",
+    "target": "soxmp3__sox",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/effects_i_dsp.c",
+      367
+    ]
+  },
+  {
+    "report_id": "031c231b09bbf6e0",
+    "target": "soxmp3__sox",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/remix.c",
+      237
+    ]
+  },
+  {
+    "report_id": "034bfd4d2fd4ce19",
+    "target": "poppler__pdfimages",
+    "label": "poc_AAH045_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/GfxState.cc",
+      5814
+    ]
+  },
+  {
+    "report_id": "0366c83bded348dc",
+    "target": "poppler__pdfimages",
+    "label": "poc_AAH045_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/GfxState.cc",
+      5814
+    ]
+  },
+  {
+    "report_id": "037c4cb1ec867952",
+    "target": "poppler__pdfimages",
+    "label": "poc_AAH045_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "poppler-1d23101c+magma-v1.2.1-bugs",
+      "poppler/GfxState.cc",
+      5814
+    ]
+  },
+  {
+    "report_id": "03d057d0fe464a1f",
+    "target": "soxmp3__sox",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/remix.c",
+      237
+    ]
+  },
+  {
+    "report_id": "041d5ed9cfcb567a",
+    "target": "soxmp3__sox",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/remix.c",
+      237
+    ]
+  },
+  {
+    "report_id": "0432e1f686f11ed9",
+    "target": "soxmp3__sox",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/remix.c",
+      237
+    ]
+  },
+  {
+    "report_id": "044e6eee947fd607",
+    "target": "soxmp3__sox",
+    "label": "poc_B_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/remix.c",
+      237
+    ]
+  },
+  {
+    "report_id": "048d494c130147b6",
+    "target": "soxmp3__sox",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/fft4g.c",
+      721
+    ]
+  },
+  {
+    "report_id": "04ce34c56fd73892",
+    "target": "freetype__char2svg",
+    "label": "poc_F_raw",
+    "endpoint_status": "uaf_static_only_dynamic_evidence_unavailable",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/truetype/ttgload.c",
+      604
+    ]
+  },
+  {
+    "report_id": "0527480f8cfea31e",
+    "target": "soxmp3__sox",
+    "label": "poc_D_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/effects_i_dsp.c",
+      360
+    ]
+  },
+  {
+    "report_id": "0566e82321770b80",
+    "target": "freetype__char2svg",
+    "label": "poc_F_raw",
+    "endpoint_status": "uaf_static_only_dynamic_evidence_unavailable",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/truetype/ttgload.c",
+      604
+    ]
+  },
+  {
+    "report_id": "064d66999696d8b5",
+    "target": "freetype__char2svg",
+    "label": "poc_F_raw",
+    "endpoint_status": "uaf_static_only_dynamic_evidence_unavailable",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/truetype/ttgload.c",
+      604
+    ]
+  },
+  {
+    "report_id": "07927173f8daed28",
+    "target": "soxmp3__sox",
+    "label": "poc_D_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/rate.c",
+      235
+    ]
+  },
+  {
+    "report_id": "0798c891ffed5154",
+    "target": "freetype__char2svg",
+    "label": "poc_F_raw",
+    "endpoint_status": "uaf_static_only_dynamic_evidence_unavailable",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/truetype/ttgload.c",
+      604
+    ]
+  },
+  {
+    "report_id": "08563e1a7f1c3522",
+    "target": "soxmp3__sox",
+    "label": "poc_D_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/effects_i_dsp.c",
+      367
+    ]
+  },
+  {
+    "report_id": "0883a9259810049b",
+    "target": "soxmp3__sox",
+    "label": "poc_D_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xmalloc.c",
+      37
+    ]
+  },
+  {
+    "report_id": "08a3518f6eb5121d",
+    "target": "soxmp3__sox",
+    "label": "poc_H_raw",
+    "endpoint_status": "argument_boundary_only",
+    "source_key": [
+      "sox-14.4.2",
+      "src/formats_i.c",
+      98
+    ]
+  },
+  {
+    "report_id": "08fb97f73f169571",
+    "target": "soxmp3__sox",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/fft4g.c",
+      721
+    ]
+  },
+  {
+    "report_id": "0910b40c93088107",
+    "target": "soxmp3__sox",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/fft4g.c",
+      721
+    ]
+  },
+  {
+    "report_id": "097fc320bd04ced9",
+    "target": "soxmp3__sox",
+    "label": "poc_D_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/rate.c",
+      235
+    ]
+  },
+  {
+    "report_id": "09a11dc730bb8554",
+    "target": "soxmp3__sox",
+    "label": "poc_H_raw",
+    "endpoint_status": "argument_boundary_only",
+    "source_key": [
+      "sox-14.4.2",
+      "src/formats_i.c",
+      98
+    ]
+  },
+  {
+    "report_id": "0aa1c1eb44fee171",
+    "target": "soxmp3__sox",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/fft4g.c",
+      721
+    ]
+  },
+  {
+    "report_id": "0aebfaf69d04d7c1",
+    "target": "freetype__char2svg",
+    "label": "poc_F_raw",
+    "endpoint_status": "uaf_static_only_dynamic_evidence_unavailable",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/truetype/ttgload.c",
+      604
+    ]
+  },
+  {
+    "report_id": "0b1bb0eea817910a",
+    "target": "freetype__char2svg",
+    "label": "poc_F_raw",
+    "endpoint_status": "uaf_static_only_dynamic_evidence_unavailable",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/truetype/ttgload.c",
+      604
+    ]
+  },
+  {
+    "report_id": "0b1ec6ab30981f91",
+    "target": "freetype__char2svg",
+    "label": "poc_F_raw",
+    "endpoint_status": "uaf_static_only_dynamic_evidence_unavailable",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/truetype/ttgload.c",
+      604
+    ]
+  },
+  {
+    "report_id": "0b85cb0d229c75ad",
+    "target": "soxmp3__sox",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/fft4g.c",
+      721
+    ]
+  },
+  {
+    "report_id": "0beeed7b6a000b58",
+    "target": "soxmp3__sox",
+    "label": "poc_D_raw",
+    "endpoint_status": "extractor_abstain_no_faulting_expression_candidate",
+    "source_key": [
+      "sox-14.4.2",
+      "src/xmalloc.c",
+      37
+    ]
+  },
+  {
+    "report_id": "0c2290134c24851c",
+    "target": "freetype__char2svg",
+    "label": "poc_F_raw",
+    "endpoint_status": "uaf_static_only_dynamic_evidence_unavailable",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/truetype/ttgload.c",
+      604
+    ]
+  },
+  {
+    "report_id": "0c868686948b2597",
+    "target": "soxmp3__sox",
+    "label": "poc_D_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/effects_i_dsp.c",
+      360
+    ]
+  },
+  {
+    "report_id": "0c9df396566089f3",
+    "target": "soxmp3__sox",
+    "label": "poc_D_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/effects_i_dsp.c",
+      367
+    ]
+  },
+  {
+    "report_id": "0de2f30d8fbabc07",
+    "target": "soxmp3__sox",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/fft4g.c",
+      721
+    ]
+  },
+  {
+    "report_id": "0de31be7435df319",
+    "target": "soxmp3__sox",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/effects_i_dsp.c",
+      367
+    ]
+  },
+  {
+    "report_id": "0f7afec595b9deb5",
+    "target": "soxmp3__sox",
+    "label": "poc_D_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/effects_i_dsp.c",
+      360
+    ]
+  },
+  {
+    "report_id": "11dc39b57a48be82",
+    "target": "soxmp3__sox",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/fft4g.c",
+      721
+    ]
+  },
+  {
+    "report_id": "11e1f5d9445d3075",
+    "target": "soxmp3__sox",
+    "label": "poc_E_raw",
+    "endpoint_status": "no_static_endpoint",
+    "source_key": [
+      "sox-14.4.2",
+      "src/fft4g.c",
+      721
+    ]
+  },
+  {
+    "report_id": "250e94becc895eb7",
+    "target": "soxmp3__sox",
+    "label": "poc_H_raw",
+    "endpoint_status": "argument_boundary_only",
+    "source_key": [
+      "sox-14.4.2",
+      "src/formats_i.c",
+      98
+    ]
+  },
+  {
+    "report_id": "2db46f9b98a0f335",
+    "target": "soxmp3__sox",
+    "label": "poc_H_raw",
+    "endpoint_status": "argument_boundary_only",
+    "source_key": [
+      "sox-14.4.2",
+      "src/formats_i.c",
+      98
+    ]
+  },
+  {
+    "report_id": "3697594f1ef02174",
+    "target": "soxmp3__sox",
+    "label": "poc_H_raw",
+    "endpoint_status": "argument_boundary_only",
+    "source_key": [
+      "sox-14.4.2",
+      "src/formats_i.c",
+      98
+    ]
+  },
+  {
+    "report_id": "3abbaaad95815e7a",
+    "target": "soxmp3__sox",
+    "label": "poc_H_raw",
+    "endpoint_status": "argument_boundary_only",
+    "source_key": [
+      "sox-14.4.2",
+      "src/formats_i.c",
+      98
+    ]
+  },
+  {
+    "report_id": "41bb32040b568ec5",
+    "target": "soxmp3__sox",
+    "label": "poc_H_raw",
+    "endpoint_status": "argument_boundary_only",
+    "source_key": [
+      "sox-14.4.2",
+      "src/formats_i.c",
+      98
+    ]
+  },
+  {
+    "report_id": "578933738ef7af24",
+    "target": "soxmp3__sox",
+    "label": "poc_H_raw",
+    "endpoint_status": "argument_boundary_only",
+    "source_key": [
+      "sox-14.4.2",
+      "src/formats_i.c",
+      98
+    ]
+  },
+  {
+    "report_id": "612c0e053093d46c",
+    "target": "soxmp3__sox",
+    "label": "poc_H_raw",
+    "endpoint_status": "argument_boundary_only",
+    "source_key": [
+      "sox-14.4.2",
+      "src/formats_i.c",
+      98
+    ]
+  },
+  {
+    "report_id": "6a029808125f99e9",
+    "target": "soxmp3__sox",
+    "label": "poc_H_raw",
+    "endpoint_status": "argument_boundary_only",
+    "source_key": [
+      "sox-14.4.2",
+      "src/formats_i.c",
+      98
+    ]
+  },
+  {
+    "report_id": "6afcb648147a336d",
+    "target": "soxmp3__sox",
+    "label": "poc_C_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "sox-14.4.2",
+      "src/remix.c",
+      238
+    ]
+  },
+  {
+    "report_id": "ce162a7b4f4d784c",
+    "target": "freetype__char2svg",
+    "label": "poc_I_raw",
+    "endpoint_status": "selected_static_definition",
+    "source_key": [
+      "freetype-2.5.3",
+      "src/psaux/psobjs.c",
+      299
+    ]
+  }
+]

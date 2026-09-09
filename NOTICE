@@ -1,0 +1,3 @@
+Research implementation and derived experimental results accompanying manuscript draft v6.
+The authors' original research code and derived experimental results are all rights reserved; see LICENSE. Public availability alone is not an open-source license.
+Third-party GPTrace evaluation code is Apache-2.0 and retains its license in third_party/GPTrace-LICENSE. Upstream project sources and model weights are not included.

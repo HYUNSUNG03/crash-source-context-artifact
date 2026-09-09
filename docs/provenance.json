@@ -1,0 +1,170 @@
+{
+  "sources": [
+    {
+      "file": "data/bge-vectors.npz",
+      "original_sha256": "8d3b0c4b2db4ccbf09100d05ea078107f92b2627e4966a6f06b74948294ccf97",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "data/scores.csv",
+      "original_sha256": "a3477e7dc6111c5d50061aba5d034ec902d9741c46d00b891f037dc1e9dd65cd",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "data/encoding-manifest.json",
+      "original_sha256": "2af4b509298a646a41e15380004b0efd1da7919f558294382a8941a436dc933c",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "data/candidates.jsonl.gz",
+      "original_sha256": "2b9e515611137563b8b3cdb64988a467fdf7f45cf3e318bba966b0adddc747ed",
+      "transformation": "gzip only"
+    },
+    {
+      "file": "data/selections.jsonl.gz",
+      "original_sha256": "c3bd372031c7cb54fa19112ae00978be6367f9c75e798d8ed7b21035c4aaeb43",
+      "transformation": "gzip only"
+    },
+    {
+      "file": "data/matrices.jsonl.gz",
+      "original_sha256": "dfe06a0a1b3364c2639fee94748829de485c40f88fa7eb7234224cffb8a01ed1",
+      "transformation": "metadata allowlist, then gzip"
+    },
+    {
+      "file": "data/grid-scores.csv",
+      "original_sha256": "a1e01762aa534e05550a96f236973aeefc3ffa21fc8a9a0eee8b328b35573cf0",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "data/grid-score-summary.csv",
+      "original_sha256": "00afee67ea6d9b4e3435ee173eff8f9895c6add62fb8d657a23e6c45fadb2bcc",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "data/structural-controls.csv",
+      "original_sha256": "02bb66cd50ff31e62aca3ba620bdbd13cbcd18d4df4a1e677c2595243f18386e",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "data/depth-selection.json",
+      "original_sha256": "18e4e389873ea667211d1233fd8eddd71a049b2e865693839d88d03871f178be",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "data/expected-v6-diagnostics.json",
+      "original_sha256": "0af4a901a5652189c6e4cca0601d0df1787035552f57ea6700823b9b35727d6f",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "data/expected-deterministic-baselines.csv",
+      "original_sha256": "079f88780ce15f1b9de1435512d471fbfc9ce8eefb97a833daf33a18cbbb60f7",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "src/selectors.py",
+      "original_sha256": "79e1af463e2f7af9c5ae36d1d79544601813e75d0e9e3e0669b9b28670ce7d9a",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "third_party/GPTrace-LICENSE",
+      "original_sha256": "f2ffa5942b316849be283deaeb2912e2e5b5b17e91012bede8210210ff3e91e7",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "third_party/gptrace_ground_truth_analysis.py",
+      "original_sha256": "503377cf8bba080e2524912c6ca2e7180934cd957ab06e69e6cb17321ba4d88f",
+      "transformation": "byte-identical"
+    },
+    {
+      "file": "historical/earlier/bprime_location_v1.py",
+      "original_sha256": "4ae3570255a637e9af993b1c79863c67aea4fe56fcf142e05242e061de9310e1",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/earlier/audit_b_location_v1.py",
+      "original_sha256": "2530b6c133a02063bfe475a0801f2f2062aec98362cd87ac64189512800a7843",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/earlier/l3_development_v1.py",
+      "original_sha256": "65e4b66e966835628e0ecf60ec59f5a6c97dea12445207109a215c9477a48810",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/earlier/l_frame_pilot_v1.py",
+      "original_sha256": "cc339a274191e5413201ca62c2b14af9354679977a6931af6094b0176eda06f7",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/earlier/extract_contexts_v4.py",
+      "original_sha256": "8f866c689fb7ad36d752f465b28f7e04ecb36c33b6082e5f443cf448280a941a",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/earlier/reconstruct_poppler_magma_source.py",
+      "original_sha256": "b4e7329ea19d54e3ebabdbbae6b1aff56e7882c1a05ad3f07c7865476d1fe144",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/latest/d1/extract_d1.py",
+      "original_sha256": "72fda90d92fa1eb9d15083bfeac44b0b4c7a8fae1a4719f36330e3c7cf498924",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/latest/d1/select_d_endpoints.py",
+      "original_sha256": "4e9d2abacfc9f1e5d14c8cb9849a264edd8b082726d70f1643015c244d193a89",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/latest/d1/dump_d1_graph.sc",
+      "original_sha256": "fdc5b9b0f4605330990b34f38764eac927f7cb82886a93ff23c5bd369dc523dc",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/latest/full152-d4-v1/run_full152_d4.py",
+      "original_sha256": "a56aa7317c01d625615bf5079ad7c23260bb310040e8954c7fbf677c726cfbc7",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/latest/full152-d4-v2/build_full152_d4_v2.py",
+      "original_sha256": "5ce9b32f8e2a0b528f78b167ba4bd19b09b6e2b6aef81759b8304cfdce78e4b7",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/latest/full152-stage4-v1/build_full152_stage4_inputs.py",
+      "original_sha256": "843e3026257dab1e02f5e230775446f14dc5e8f2161553d6e1d399d2482f4d5d",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/latest/full152-stage4-v1/run_full152_stage4.py",
+      "original_sha256": "3e2ccc5a5b78da19e5a20aeea36abd613926c30b7528f758d374127ff3f25f9d",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/latest/stage4_numeric_v1.py",
+      "original_sha256": "23694ba47ffd3ec4a41665a09a19080bf5db4a95d421573138efe0e75ff228eb",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/latest/hdbscan_structural_grid_v1.py",
+      "original_sha256": "d5baa042c8c1eea410cbf13ab67e99354b8e8bdd2723b5c614f297f1a419a35b",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/latest/hdbscan_structural_controls.py",
+      "original_sha256": "9c8396af09523dacdbe5fefe191cf66d4da503d367c7a210c2c4b83765a120a4",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    },
+    {
+      "file": "historical/latest/selector_contract_probe.py",
+      "original_sha256": "2461ee9f5fb1e2d7cc263efa4e93bd8c8f0713982de1f4622d63aa618f2b1c89",
+      "transformation": "UTF-8/LF; workstation root strings replaced by /RESEARCH_WORKSPACES or /RESEARCH_HOME; algorithm unchanged"
+    }
+  ],
+  "original_freezes": {
+    "phase1-freeze.json": "d0b0b41e8f1c851db539e11e71a64cae830bf98e5735dee8ab4c08b9c3cad7d0",
+    "phase2-manifest.json": "6eca855193f95d699611eba9bc40b8494d8c404fe3fd8fd0a1ec34003001847b"
+  },
+  "input_text_inventory_sha256": "5df7c67aa82fa3d9288b4ce2bbf5052e6e29821fb3c5baea132c9fc38494feb1",
+  "source": "GPTrace public artifacts, selected development cohort; no new independent test set"
+}
